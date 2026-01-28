@@ -2,8 +2,6 @@
 
 A Claude Code skill that tailors your resume to job descriptions **without hallucinating experience you don't have**.
 
-> **New to this?** Start with [BEGINNERS.md](BEGINNERS.md) - explains what Claude Code is and whether you need it.
-
 ## The Problem
 
 Resume tailoring tools (including AI) often "improve" your resume by adding impressive-sounding skills, inflated metrics, or experiences you never had. This is both unethical and dangerous - recruiters and hiring managers will catch it.
@@ -22,70 +20,65 @@ The key innovation: **every word in a proposed edit must exist in your bullet co
 ## Quick Start
 
 ```bash
-# 1. Clone this repo
-git clone https://github.com/pfallonjensen/resume-tailor.git
+# 1. Set up your profile (see SETUP.md)
 
-# 2. Look at the example user for reference
-cat users/fallon-jensen/profile.md
-cat users/fallon-jensen/bullet-corpus.txt
-
-# 3. Set up your profile
-cp -r users/_template users/your-name
-
-# 4. Fill in your data (corpus, resume, profile)
-# See SETUP.md for detailed instructions
-
-# 5. Install the skill in Claude Code
-mkdir -p ~/.claude/skills/resume-tailor
-cp skill/* ~/.claude/skills/resume-tailor/
-
-# 6. Run the skill
+# 2. Run the skill with a job description
 /resume-tailor
+
+# 3. Follow the prompts to:
+#    - Analyze keyword gaps
+#    - Choose which gaps to address
+#    - Review proposed edits
+#    - Generate tailored resume
 ```
 
 ## Folder Structure
 
 ```
-resume-tailor/
+Career/
 ├── README.md           # You are here
-├── SETUP.md            # Setup instructions
+├── SETUP.md            # Setup instructions for new users
 ├── CONTRIBUTING.md     # How to improve the skill
+├── SHARING.md          # How to share with others
 │
 ├── users/              # User profiles and data
-│   ├── _template/      # Copy this to create your profile
+│   ├── _template/      # Template for new users
 │   │   ├── profile.md
 │   │   ├── bullet-corpus.txt
 │   │   └── current-resume.txt
 │   │
-│   └── fallon-jensen/  # Example user (reference)
+│   └── [your-name]/    # Your profile
 │       ├── profile.md
-│       ├── bullet-corpus.txt  # 380+ bullet variations
+│       ├── bullet-corpus.txt
 │       ├── current-resume.txt
 │       └── job-applications/
+│           └── [company-jd].txt
 │
 ├── skill/              # The skill code
 │   ├── README.md       # Technical documentation
 │   ├── resume-tailor.py
 │   └── skill.md
 │
-└── reference/          # Original instruction sets (learning resource)
-    ├── README.md
-    ├── kb-instructions/
-    ├── example-lists/
-    ├── industry-terms/
-    └── jd-examples/
+├── reference/          # Original instruction sets (read-only)
+│   ├── README.md       # Guide to reference materials
+│   ├── kb-instructions/
+│   ├── example-lists/
+│   ├── industry-terms/
+│   └── jd-examples/
+│
+└── archive/            # Old resume versions
 ```
 
 ## How It Works
 
 ### 1. Gap Analysis (Python)
-Extracts keywords from the job description, categorizes them, and compares against your current resume to find missing keywords.
+Extracts keywords from the job description, parses your resume into sections (summary, career highlights, experience bullets), and shows per-section keyword coverage.
 
 ### 2. Edit Proposals (Claude)
-For each gap you want to address, Claude proposes minimal edits that:
-- Add the keyword naturally
+For each gap you want to address, Claude identifies the best section to modify and proposes minimal edits that:
+- Add the keyword in the right place (positioning keywords → summary, achievements → highlights, evidence → bullets)
 - Preserve all your metrics
-- Stay within character limits
+- Stay within section-appropriate character limits
 - Use ONLY words from your bullet corpus
 
 ### 3. Validation (Python)
@@ -106,22 +99,16 @@ You see the original bullet, proposed edit, source reference from your corpus, a
 
 **Gap Analysis**: Shows which JD keywords are missing from your resume, prioritized by importance.
 
-**Character Limits**: One-line bullets (80-116 chars) are preferred. Two-line (175-235 chars) are acceptable. The "awkward zone" (117-174 chars) should be adjusted up or down.
+**Character Limits**: Section-specific limits ensure proper formatting:
+- Summary tagline: 60-100 chars (short, punchy)
+- Summary body: 300-500 chars (2-4 sentences)
+- Career highlights: 150-250 chars each
+- Experience bullets: 80-116 (one-line) or 175-235 (two-line)
 
-## Contributing
+## Next Steps
 
-Found a bug? Have an improvement? See [CONTRIBUTING.md](CONTRIBUTING.md).
-
-Ideas welcome:
-- Better keyword extraction patterns
-- New industry term lists
-- Improved validation rules
-- Documentation improvements
-
-## License
-
-MIT - Use it, share it, improve it.
-
-## Credits
-
-Built with [Claude Code](https://claude.ai/claude-code). Original instruction design based on ChatGPT custom GPT experiments (see `reference/` folder).
+1. **New user?** Start with [SETUP.md](SETUP.md)
+2. **Want to share this?** See [SHARING.md](SHARING.md)
+3. **Want to improve the skill?** See [CONTRIBUTING.md](CONTRIBUTING.md)
+4. **Curious about the code?** Read [skill/README.md](skill/README.md)
+5. **Learning from the reference materials?** Check [reference/README.md](reference/README.md)

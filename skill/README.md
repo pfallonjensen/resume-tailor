@@ -2,7 +2,7 @@
 
 How the skill code works, for anyone who wants to modify or understand it.
 
-
+> **Note for Fallon's vault**: The "live" skill files are at `.claude/skills/resume-tailor/`. This folder (`Career/skill/`) is a copy for documentation and sharing. If you modify the skill, update both locations.
 
 ## Files
 
@@ -54,29 +54,48 @@ Extracts and categorizes keywords from job description text.
 3. Extract context (surrounding sentence)
 4. Categorize importance based on position and frequency
 
-#### `parse_resume(resume_text) -> list[dict]`
-Parses resume into structured bullets with metadata.
+#### `parse_resume(resume_text) -> ParsedResume`
+Parses resume into structured sections: summary, career highlights, and experience bullets.
 
 ```python
-# Returns:
-[
-    {
-        "id": "company_role_1",
-        "company": "LogMeIn",
-        "role": "Staff PM",
-        "text": "Drove $59M in revenue...",
-        "char_count": 94,
-        "metrics": ["$59M", "8"]
+# Returns ParsedResume dataclass:
+{
+    "summary": {
+        "tagline": "Product Strategy & Innovation | Leading...",
+        "tagline_char_count": 86,
+        "body": "With 15 years in product strategy...",
+        "body_char_count": 483
     },
-    ...
-]
+    "highlights": [
+        {
+            "id": "highlight_0",
+            "label": "AI/ML & Product Innovation:",
+            "text": "Spearheaded the productization of 12 ML models...",
+            "full_text": "AI/ML & Product Innovation: Spearheaded...",
+            "char_count": 189,
+            "metrics": ["$59M"]
+        },
+        ...
+    ],
+    "experience_bullets": [
+        {
+            "id": "code_and_theory_0",
+            "company": "Code and Theory",
+            "text": "Generated $23M+ in revenue...",
+            "char_count": 94,
+            "metrics": ["$23M+", "12"]
+        },
+        ...
+    ]
+}
 ```
 
 **Logic:**
-1. Split by section headers (EXPERIENCE, EDUCATION, etc.)
-2. Identify company/role headers
-3. Extract bullet points
-4. Count characters and extract metrics (numbers, percentages, dollar amounts)
+1. Split into sections by headers (CAREER HIGHLIGHTS, PROFESSIONAL IMPACT/EXPERIENCE)
+2. Parse summary: tagline (first line with | separator) and body paragraph
+3. Parse highlights: labeled bullets (Label: description format)
+4. Parse experience: company headers and bullet points
+5. Count characters and extract metrics for each item
 
 #### `compute_gap_analysis(keywords, resume) -> dict`
 Compares JD keywords against resume to find gaps.
@@ -106,32 +125,25 @@ Compares JD keywords against resume to find gaps.
 3. Calculate overall coverage percentage
 4. Sort missing by importance
 
-#### `validate_edit(original, proposed, corpus) -> dict`
-Validates a proposed bullet edit against anti-hallucination rules.
+#### `validate_edit(original, proposed, corpus, section_type='bullet') -> tuple[list, bool]`
+Validates a proposed edit against anti-hallucination rules with section-appropriate limits.
 
 ```python
-# Returns:
-{
-    "valid": false,
-    "warnings": ["CHAR_LIMIT_EXCEEDED", "HALLUCINATION_RISK"],
-    "details": {
-        "char_count": 156,
-        "char_limit": "AWKWARD_ZONE",
-        "missing_words": ["lifecycle"],
-        "metrics_check": {
-            "original": ["$59M", "8"],
-            "proposed": ["$59M", "8"],
-            "preserved": true
-        }
-    }
-}
+# Parameters:
+#   original: str - Original text
+#   proposed: str - Proposed replacement
+#   corpus: set[str] - Words from bullet corpus
+#   section_type: str - One of: 'summary_tagline', 'summary_body', 'highlight', 'bullet'
+
+# Returns tuple of (warnings_list, passed_bool):
+(['CHAR_EXCEEDED: Tagline 120 chars exceeds max (100)'], False)
 ```
 
 **Validation Rules:**
 
 | Rule | Check | Failure Mode |
 |------|-------|--------------|
-| Character limits | 80-116 (one-line), 175-235 (two-line) | `CHAR_LIMIT_EXCEEDED` |
+| Character limits | Section-specific (see CHAR_LIMITS) | `CHAR_EXCEEDED` or `CHAR_AWKWARD` |
 | Metrics preserved | All numbers from original exist in proposed | `METRICS_LOST` |
 | No hallucination | Every word exists in corpus | `HALLUCINATION_RISK` |
 | No new proper nouns | Company/tech names must be in corpus | `NEW_PROPER_NOUN` |
@@ -170,12 +182,16 @@ KEYWORD_PATTERNS = {
 
 ```python
 CHAR_LIMITS = {
-    'ONE_LINE': (80, 116),      # Ideal
-    'AWKWARD': (117, 174),      # Adjust up or down
-    'TWO_LINE': (175, 235),     # Acceptable
-    'OVER': (236, float('inf')) # Must trim
+    'summary_tagline': (60, 100),      # Short, punchy positioning
+    'summary_body': (300, 500),        # 2-4 sentences overview
+    'highlight': (150, 250),           # Career highlights
+    'bullet_one_line': (80, 116),      # Ideal for experience
+    'bullet_two_line': (175, 235),     # Acceptable for complex achievements
+    'bullet_awkward': (117, 174),      # Adjust up or down
 }
 ```
+
+The `validate_edit()` function accepts a `section_type` parameter to apply the appropriate limits.
 
 ## Skill Definition (skill.md)
 
@@ -277,8 +293,8 @@ def test_validation_catches_hallucination():
 # Full workflow test
 python3 resume-tailor.py preprocess \
   --jd reference/jd-examples/example-1.txt \
-  --resume users/<your-name>/current-resume.txt \
-  --corpus users/<your-name>/bullet-corpus.txt \
+  --resume users/fallon-jensen/current-resume.txt \
+  --corpus users/fallon-jensen/bullet-corpus.txt \
   --output /tmp/test_gap.json
 
 # Verify output
