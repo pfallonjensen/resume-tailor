@@ -2,6 +2,8 @@
 
 A Claude Code skill that tailors your resume to job descriptions **without hallucinating experience you don't have**.
 
+> **New to this?** Start with [BEGINNERS.md](BEGINNERS.md) - explains what Claude Code is and whether you need it.
+
 ## The Problem
 
 Resume tailoring tools (including AI) often "improve" your resume by adding impressive-sounding skills, inflated metrics, or experiences you never had. This is both unethical and dangerous - recruiters and hiring managers will catch it.
