@@ -1,0 +1,36 @@
+# Current Resume Template
+# =======================
+# This is your current resume in plain text format.
+# The skill uses this as the baseline to tailor against job descriptions.
+#
+# FORMAT:
+# -------
+# Use plain text (not markdown) so the Python script can parse it
+# Keep your standard formatting: Name, Summary, Experience, Education, etc.
+# Each bullet should be on its own line
+
+YOUR NAME
+Location | Email | Phone | LinkedIn
+
+SUMMARY
+[Your 2-3 sentence professional summary]
+
+EXPERIENCE
+
+COMPANY NAME | Role Title | City, State | Start Date - End Date
+- Achievement bullet 1 with [metric]
+- Achievement bullet 2 with [outcome]
+- Achievement bullet 3 with [impact]
+
+PREVIOUS COMPANY | Role | Location | Dates
+- Bullet 1
+- Bullet 2
+
+EDUCATION
+
+University Name | Degree | Graduation Year
+
+SKILLS
+
+Technical: [list]
+Domain: [list]

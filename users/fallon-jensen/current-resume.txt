@@ -1,0 +1,133 @@
+Fallon Jensen 
+
+805.315.1362 | pfallonjensen@gmail.com | www.linkedin.com/in/fallonjensen | Nashville, TN
+
+Product Strategy & Innovation | Leading Strategic Growth Through Emerging AI Solutions
+With 15 years in product strategy and innovation, I specialize in building AI-powered products that turn predictions into clarity, confident decisions, and measurable impact. I’ve launched 11 zero-to-one products and driven over $100M in new ARR by aligning emerging technologies with real user behavior and business goals. I work best in early-stage environments where product-market fit, architecture, and adoption need to be defined together to build scalable and trusted systems.
+
+CAREER HIGHLIGHTS
+
+	•	North Star Vision & Strategic Pivots – Led 8 strategic pivots that redefined product-market fit and unlocked transformational value in revenue growth, retention, and scalable profitability.
+	•	AI/ML & Product Innovation: Spearheaded the productization of 12 ML models, including intelligent assistants and recommendation systems, generating $59M ARR and scaling enterprise adoption. 
+	•	Data Strategy & Scalable Analytics: Co-designed a data strategy to deliver atomic, unopinionated events to support more real-time analytics, reducing processing by 25%, improve scalability, and deliver actionable insights into customer behavior.
+	•	Cross-Functional Leadership: Built and scaled teams of 10+ Product Managers and Designers, leading multi-phase enterprise projects to generate 8-figure revenue streams for large-scale PLG and CRO initiatives, and drove a 60% client extension rate.
+	•	Agile Delivery Transformation: Improved delivery processes by 36%-364% across 24+ teams, mentoring cross-functional teams to deliver scalable AI and SaaS platforms by driving best practices in discovery, definition, development, and launch. 
+	•	PLG & Experimentation Strategy: Led 600+ experiments to refine PLG acquisition funnels, reduce friction, and maximize customer value, consistently delivering triple-digit improvements in conversion, engagement, retention, and revenue.
+	•	Technical Leadership & Innovation: Rescued a $34M project to improve growth and scalability for $350M SaaS product by championing a strategic pivot in design, platform architecture, and GTM, accelerating delivery by 66% and beta’s DAU by 20%.
+
+PROFESSIONAL IMPACT
+
+Director of Product Strategy	Nov 2022 – Jun 2024
+Code and Theory Agency	Remote
+Led product strategy and operational growth for Fortune 500 clients. 
+	•	Generated $23M+ in revenue by leading 12 PMs and providing cross-functional leadership across 30+ pitches and high-profile projects to operationalize growth, including UnderArmour, WeTransfer, T Rowe Price, Lazard, and Morgan Stanley.
+	•	Spearheaded GenAI product strategy to enhance product discovery and customer support for e-comm and fintech clients.
+	•	Cut RFP response time by 45% and won $10M+ in new business by developing custom GPTs to synthesize research and refine copy. Applied n-shot learning, nucleus sampling, and frequency/presence penalties in a human-in-the-loop system.
+
+Director of Product Growth	May 2022 – Oct 2022
+Noom 	Remote
+Accelerated growth for new mental wellness product through high-velocity experimentation. 
+	•	Led high-velocity experimentation using qualitative and quantitative research, boosting trials by 122% and ARR by 47% within 3 months leveraging a mix of A/B testing and simulated ML techniques to optimize testing velocity.
+	•	Improved retention by 60%, gross margin by 29%, and signups by 24% in 6 months by implementing a personalized, customer-centric pricing and modular packaging strategy tailored to boost LTV and long-term engagement.
+
+Founder, Head of Product	Jul 2018 – Oct 2022
+ProdUX Growth	San Francisco, CA
+Fractional exec agency specializing in 0-1 builds, B2B growth, & product market fit for emerging tech in fintech, AI, and web3.
+
+Selected clients I joined as a fractional Head of Product:
+SimpleDirect–B2B fintech startup in ideation phase struggling with validating a POC and product-market fit
+	•	Led Product and Growth teams to MVP and acquire first 1400 B2B customers with 98% retention and 28% conversion to paid through co-design program with early customers focusing on rapid prototyping and open feedback loops.
+	•	increased ARR by 70% through customer discovery and iterative experiments on packaging and go-to-market strategy.
+	•	
+GotIt.ai –Conversational AI startup for eCommerce searching for problem/solution fit and early validation.
+	•	Developed go-to-market strategy for a conversational AI client, refining the Serviceable Obtainable Market (SOM) to niche MQL/PQLs with a high willingness to pay, boosting B2B acquisition, activation, and retention. 
+	•	
+Dock.io – Blockchain startup revolutionizing digital identity with W3C verifiable credentials on Ethereum’s network.
+	•	Proposed and led a strategic pivot for a web3 data marketplace to focus on W3C verifiable credentials, defining product and go-to-market strategies that accelerated revenue forecast by 3 years and achieved profitability in under 12 months.
+
+
+
+Staff Product Manager	Feb 2017 – Feb 2020
+LogMeIn (Acquired Citrix SaaS Division in 2017)	San Francisco, CA
+Led growth strategy for a $600M business unit, driving 0-1 AI/ML innovation across 5 roadmaps and 3 products.
+	•	Drove $59M in revenue by productizing 8 ML models in NLP, Computer Vision, and Recommenders.
+	•	Improved time to value by 520%, retention by 24%, and engagement by 300% by applying design thinking to reimagine GoToWebinar’s self-service analytics as a single-page app (SPA), enabling real-time data analysis and solving key pain points
+	•	Championed GDPR compliance across six product lines, influencing organizational change by coordinating legal, security, and engineering teams. Persuaded CSO and Legal to amend guidelines, saving $9M in ARR by improving data management.
+	•	Headed enterprise-level cross-functional strategic projects including integrations strategy for upgraded APIs, webhooks, and 3rd party partnerships, reducing server loads by 22%.
+
+Senior Product Manager	Sep 2014 – Feb 2017
+Citrix Systems 	Santa Barbara, CA
+Led product and growth strategy for mobile, tablets, and wearables in $350M video conferencing product, GoToMeeting.
+	•	Increased MAU 86% to 560k in 18 months by redesigning app and onboarding to focus on joining a meeting in 3 taps or less.
+	•	Drove 24+ pt increase in tNPS, leading G2M to be the highest-rated app among WebEx, Teams, and Zoom.
+	•	Improved release velocity for 5 dev teams by 60% up to 342% and reduced tech debt through Lean/Agile methods.
+	•	Pioneered the first iOS-only screen-sharing experience, $17M in ARR with an enterprise pilot program.
+	•	Revived a $34M GoToMeeting project by securing executive buy-in and galvanizing team of 75+ with strategic pivots in product vision, architecture, and go-to-market strategy, saving $8M+ in recent investment and a 20% increase in beta DAU.
+
+Product Manager	Jul 2012 – Sep 2014
+Verio	Boca Raton, FL
+Promoted to lead team of 5 to pivot business and product portfolio strategy in $100M company.
+	•	Led pivot from hosting to a higher-value B2B SaaS marketplace, preventing bankruptcy and enabling a $36M acquisition. 
+	•	Secured 22 SaaS partnerships, increasing gross margin by 42% and reducing integration fees by 73%. 
+	•	Rebuilt product marketing team post-70% RIF to lead go-to-market for pricing, positioning, segmentation, and enablement.
+
+Product Management Lead	Aug 2010 – May 2012
+On Demand Software 	Remote
+Led a team of three to define MVPs and execute go-to-market strategies for B2B and B2B2C SaaS products.
+	•	Led a team of 3 in research, prioritization, and go-to-market strategy for 3 SaaS products. Defined MVP through qualitative 
+studies and A/B tests, launching a B2C product across web, iOS, and Android, growing the user base from 0 to 300.
+EDUCATION
+Pragmatic Marketing Certified Level 4 (PMC-IV)
+Brigham Young University, Bachelor of Arts in Economics
+PROVEN SKILLS
+
+Product & Strategy
+Product Vision & Roadmapping
+0→1 Product Development
+Product-Market Fit
+Go-To-Market Strategy
+Human-AI Interaction
+Growth Experimentation
+A/B Testing
+Conversion Optimization
+Customer Discovery
+Jobs To Be Done Frameworks
+
+
+
+
+
+
+
+
+Technical & Analytical
+Generative AI
+Deep Learning
+Predictive Analytics 
+Natural Language Processing
+Recommender Systems
+Experimentation Frameworks
+Product Analytics & Measurement
+UX/UI Research & Prototyping
+React and FE API Integration
+SQL & Python for Analysis
+
+
+
+
+
+
+
+Leadership & Collaboration
+Executive Stakeholder Alignment
+Talent Development & Mentorship
+Design & Engineering Collaboration
+Agile & Lean Product Methodologies
+Workshop Facilitation
+OKR Leadership
+High-Impact Delivery Velocity
+
+
+
+
+

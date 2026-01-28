@@ -1,0 +1,211 @@
+# Fallon Jensen - Resume Bullet Corpus
+# Source of truth for all resume content. Used for anti-hallucination validation.
+# Last updated: 2026-01-27
+
+## Code & Theory - Director of Product Strategy (Dec 2022 - Jun 2024)
+
+Generated $23M+ in revenue by leading 7 PMs across 20+ pitches and high-profile projects to operationalize growth, including UnderArmour and WeTransfer's conversion optimizations and redesigns.
+Generated $23M by leading a team of 7 Product Managers to address customer pains via GenAI and agentic models for enterprises in Financial Services and E-Commerce.
+Generated $23M+ in revenue by leading 12 PMs and providing cross-functional leadership across 30+ pitches and high-profile projects to operationalize growth, including UnderArmour, WeTransfer, T Rowe Price, Lazard, and Morgan Stanley.
+Spearheaded GenAI product strategy to enhance product discovery and customer support for e-comm and fintech clients.
+Cut RFP response time by 45% and won $10M+ in new business by developing custom GPTs to synthesize research and refine copy. Applied n-shot learning, nucleus sampling, and frequency/presence penalties in a human-in-the-loop system.
+Leveraged Large Language Models (LLMs) to develop customer-facing AI solutions, enhancing product discovery, FAQs, and customer support experiences for enterprise clients.
+Created a GPT-powered system to automate RFP pitch decks, reducing content creation time by 60%, improving proposal turnaround times for business development teams.
+Authored the C.L.E.A.R. strategy method to operationalize growth levers and enhance our services portfolio.
+
+## Noom - Director of Product Growth (May 2022 - Oct 2022)
+
+Led high-velocity experimentation, boosting trials by 122% and ARR by 47% within 3 months, leveraging a mix of A/B testing and simulated ML techniques to optimize testing velocity despite heavy constraints on user traffic.
+Led high-velocity experimentation using qualitative and quantitative research, boosting trials by 122% and ARR by 47% within 3 months leveraging a mix of A/B testing and simulated ML techniques to optimize testing velocity.
+Improved retention by 60%, gross margin by 29%, and signups by 24% within 6 months by implementing a personalized pricing and modular packaging strategy, tailored to boost CLTV and long-term engagement.
+Improved retention by 60%, gross margin by 29%, and signups by 24% in 6 months by implementing a personalized, customer-centric pricing and modular packaging strategy tailored to boost LTV and long-term engagement.
+Improved trial conversion by 122% in 5 months via A/B and multi-armed bandit testing.
+Increased forecasted annual revenue by 47% though buyflow optimization of val props and CTAs.
+Designed new pricing and packaging model forecasted to improve signups by 24%, gross margin by 29%, 4 month retention by 33%, and annual retention by 60%.
+
+## ProdUX Growth Consulting - Founder, Principal (Jul 2018 - Oct 2022)
+
+Developed go-to-market strategy for a conversational AI client, refining the Serviceable Obtainable Market (SOM) to boost B2B adoption, activation, and retention. Reduced friction in NLU/Dialog paths for smoother customer interactions.
+Developed go-to-market strategy for a conversational AI client, refining the Serviceable Obtainable Market (SOM) to niche MQL/PQLs with a high willingness to pay, boosting B2B acquisition, activation, and retention.
+Directed a strategic pivot from B2C to B2B2C for a web3 data marketplace, achieving profitability in under 12 months. This pivot accelerated the revenue forecast by 3 years by focusing on W3C verifiable credentials on Ethereum's network.
+Proposed and led a strategic pivot for a web3 data marketplace to focus on W3C verifiable credentials, defining product and go-to-market strategies that accelerated revenue forecast by 3 years and achieved profitability in under 12 months.
+Grew userbase 0-1400 B2B customers for fintech startup, achieving 98% 12-month retention, 28% conversion to paid, and increased ARR by 70% through customer discovery and iterative experimentation on packaging and go-to-market strategy.
+Led Product and Growth teams to MVP and acquire first 1400 B2B customers with 98% retention and 28% conversion to paid through co-design program with early customers focusing on rapid prototyping and open feedback loops.
+Increased ARR by 70% through customer discovery and iterative experiments on packaging and go-to-market strategy.
+Redesigned and modularized a Membership SaaS offering, expanding TAM and driving a 37% ARPU increase in 6 months. Launched an in-app discovery module to improve onboarding, boosting click-through rates by 2400%.
+Led pivot to decentralized identity, defining product and go-to-market strategies with CEO.
+Catapulted revenue plan 3 years ahead of schedule via a novel channel & product strategy.
+Doubled monthly retention by reducing user friction and optimizing engagement funnels.
+Grew userbase by 10X with 98% retention and 28% conversion to paid via rapid RAT prototypes.
+Increased revenue 70% while sustaining 96% retention rate through iterative pricing experiments.
+Increased revenue 70% while sustaining 98% retention rate through iterative pricing experiments.
+Increased revenue 70% while maintaining 98% retention rate through iterative pricing experiments.
+Drafted users' happy path to increase activation and retention by resolving highest friction points.
+Consulted CEO on narrowing SOM to niche, high-value prospects who were ready to purchase.
+Consulted CEO on narrowing SOM to target niche prospects with high willingness to pay based on signal from user interviews and industry research.
+Increased user activation and retention by mapping AI-driven customer journeys, eliminating high-friction points.
+Spearheaded the customization and deployment of autonomous conversational agents within Got It AI's NLU/Dialog Manager and third-party platforms, enhancing CX automation for enterprise clients.
+Collaborated cross-functionally with engineering and design teams to refine AI dialog paths, improving automation accuracy and user satisfaction.
+Refined AI-powered virtual agent frameworks for large enterprises, increasing containment rates and automation accuracy, while driving user engagement and retention through personalized CX journeys.
+Led product design for AI agent dialog path verification, reducing time to deploy automation by 50%, enabling scalable virtual agents across multiple enterprises.
+Increased ARPU 37% within 6 months post launch by re-designing new "Membership" concept.
+Boosted MarCom click-through rate by 2400% by creating in-app customer engagement channel.
+Co-authored product strategy with CEO, devised iterative experiments to MVP, growing from 0 to 1,400 users with a 98% retention rate and 28% conversion from freemium to paid.
+Mentored CEO through product/market fit and go-to-market, using iterative experimentation to grow customer conversion from 0 to 1,400 users with a 28% conversion from freemium to paid.
+Proposed remote-first work culture and guided founders through conversion that improved morale, retained key early employees, and expanded hiring opportunities.
+Retained 3 key employees and hired 2 on budget by adopting remote-first culture.
+Established remote-first culture to retain 3 employees and hire +2 headcount on budget.
+Accelerated path to revenue by 3 years through pivot to focus on strategic partnerships that enabled go-to-market of long-term D2C vision.
+Accelerated path to revenue by 3 years through pivot to adjacent market, focused on developing strategic partnerships that enabled go-to-market of long-term B2C vision.
+Accelerated path to revenue from 3 years to 1 year, solving deep budget constraints by formulating new product offering and expanding business model to include B2B sales.
+Accelerated path to revenue by 3 years via additional product offering focused on developing strategic partnerships and expanding business model to include B2B sales.
+Accelerated path to revenue by 3 years through strategic pivot to adjacent B2B2C model, focused on developing strategic partnerships to systematize go-to-market of long-term B2C vision.
+Accelerated path to revenue by 2 years through strategic pivot to adjacent B2B2C model, leveraging ignored niche market to systematize go-to-market of long-term vision.
+Raised retention 14% in 4 months by reducing user friction through user rapid A/B testing.
+Raised retention 14% in 4 months by improving conversion funnels and reducing friction in user onboarding through intensive user research and iterative multivariate experiments (A/B testing).
+Raised retention 14% in 4 months by improving conversion funnels and user onboarding through intensive post-release user studies and incremental A/B testing.
+Guided founders to adopt formalized strategic frameworks and rehabilitate their data platform.
+Established cohesive product strategy, identified user needs, and a path to monetization.
+Refocused product development and targeted engagement funnels to grow retention by 14% in 3 months.
+Grew retention 14% in 3 months with targeted product enhancements and engagement funnels.
+Refocused onboarding with targeted engagement funnels to grow retention by 14% in 4 months.
+Created vision, mission, quarterly OKR structure, and research goals to validate product/market fit.
+Analyzed market research trends to develop blockchain business cases in 4 separate industries as the foundation for product/market fit validation.
+Developed blockchain business cases for IOT, supply chain, marketplace, and self-sovereign identity.
+Developed 4 blockchain business cases as the foundation for product/market fit validation.
+Initiated 20+ customer interviews, developed 4 product proposals leading to product/market validation.
+Initiated 20+ customer interviews resulting in validating problem/solution fit with proposals for product applications in 4 separate industries (IoT, Supply Chain, Marketplaces, Self-Sovereign ID).
+Initiated new user research to increase company-wide user empathy and identified 4 unrealized product applications in growth verticals (IoT, Supply Chain, Marketplaces, Self-Sovereign ID).
+Pivoted blockchain product strategy from B2C to B2B BaaS offering with clear path to revenue.
+Pivoted blockchain product strategy from B2C to B2B to deliver a path to profitability in >12 months.
+
+## LogMeIn - Staff Product Manager (Feb 2017 - Feb 2020)
+
+Led growth strategy for a $600M business unit, driving 0-1 AI/ML innovation across 5 roadmaps and 3 products.
+Drove $59M in revenue by productizing 8 ML models in NLP, Computer Vision, and Recommenders.
+Improved time to value by 520%, retention by 24%, and engagement by 300% by applying design thinking to reimagine GoToWebinar's self-service analytics as a single-page app (SPA), enabling real-time data analysis and solving key pain points.
+Championed GDPR compliance across 6 product lines and saved $9M in ARR by improving data management for customers.
+Championed GDPR compliance across six product lines, influencing organizational change by coordinating legal, security, and engineering teams. Persuaded CSO and Legal to amend guidelines, saving $9M in ARR by improving data management.
+Drove machine learning growth strategy for $600M business unit. Owned 5 roadmaps for $120M product.
+Improved time to value 520%, retention 24%, and engagement 300% by utilizing design thinking to focus on customer pains and reimagine GoToWebinar's self-service analytics experience.
+Improved time to value 520% and retention 24% by reimagining GoToWebinar's self-service analytics experience.
+Increased retention 24%, engagement 300%, and decreased time to value 80% by utilizing design thinking to iteratively simplify GoToWebinar's customer-facing analytics experience.
+Increased retention 24%, engagement 300%, and decreased time to value 80% for GoToWebinar utilizing design thinking and experiments to refocus teams to solve core customer needs.
+Redesigned our end-to-end analytics user experience by utilizing design thinking principles to cut users' time to value by 80%, increase retention by 24% and monthly feature usage by 300% to 560k.
+Productized 8 machine learning models, 2 new revenue streams and retained $22M in revenue.
+Productized 8 machine learning models, using Natural Language Processing and deep learning recommenders to create 2 new revenue streams and retain $22M in revenue.
+Productized 8 machine learning models to create 2 new products and retain $16M in revenue.
+Produced ML models that power GoToMeeting Assistant, increasing revenue retention by 8%.
+Produced machine learning models for GoToMAssistant, increasing retention by 8%.
+Produced NLP and recommendation models that power GoToMeeting Assistant, used millions of times per month, increasing retention by 8%+.
+Coached struggling ML Engineering Manager through process to gain executive buy-in to productize ML models, within 16 months launched 4 features built on 8 ML models, including GoToMeeting Transcripts and Assistant, driving millions in revenue and revenue retention, increasing user retention by 8%.
+Released recommendation engine with 45% conversion rate of 1st time users for new revenue stream.
+Created 2 new revenue streams and retained $16M in revenue with 8 machine learning models.
+Led ML team to define strategy and key investment areas for $600M ARR business unit.
+Improved retention by 7%+ by producing ML models that power GoToMeeting Assistant.
+Evangelized fledgling Machine Learning team, coaching Engineering Manager on best practices and how to gain executive buy-in to productize ML models.
+Produced machine learning models that powered GoToMeeting Assistant, a ML-based add-on that increased user retention by 8%.
+Headed integrations strategy to upgrade APIs and add webhooks to reduce server load by 22%.
+Headed enterprise-level cross-functional strategic projects including integrations strategy for upgraded APIs, webhooks, and 3rd party partnerships, reducing server loads by 22%.
+Instigated GDPR compliance overhaul across 6 product lines, aligning Product, Security, Legal, Engineering, Marketing, and Care with strong business case, saving $9M+ in revenue retention.
+Transformed GDPR compliance initiative for business unit by aligning Product, Legal, Security, Engineering, Marketing, and Care to boost brand loyalty, data management, and marketing ROI.
+Spearheaded GDPR compliance for $600M business unit with Legal, Security, Engineering, Marketing, and Customer Care to boost brand reputation, data management, and Marketing ROI.
+Spearheaded GDPR compliance for main business unit, worked with Legal, Security, Engineering, Marketing, and Customer Care to deliver 100% compliance before enforcement date.
+Spearheaded GDPR compliance initiative for $600M business unit, saving $3M ARR by addressing non-obvious customer behavior, improving data management processes, and boosting marketing ROI.
+Persuaded Chief Security Officer and Legal to save $3M ARR and amend GDPR compliance by identifying at-risk core customer subset with atypical behavior patterns.
+Persuaded Chief Security Officer and Legal to secure $3M ARR for $100M product by amending GDPR guidelines identifying at-risk customer segment with atypical behavior patterns.
+Boosted retention 24% by identifying unmet customer needs and leading full product cycle to iteratively launch a customer-facing analytics experience that showcased customer ROI.
+Boosted retention 24%, engagement 300% by identifying unmet customer needs and leading full product cycle to iteratively launch a customer-facing analytics experience that showcased customer ROI.
+Redesigned user analytics experience that skyrocketed usage by 300% and retention by 24% by closely partnering with Design and Research to identify and solve pains of underserved use case.
+Utilized design thinking to redesign our end-to-end reporting and analytics experience that increased retention by 24%, monthly feature usage by 300% to 560k, and cut time to user value by 80%.
+Utilized design thinking to reinvent customer analytics experience, skyrocketed usage 300% and retention 24% by identifying underserved pains of key user segment.
+
+## Citrix Systems - Senior Product Manager (Sep 2014 - Feb 2017)
+
+Led product and growth strategy for mobile, tablets, and wearables in $350M video conferencing product, GoToMeeting.
+Increased MAU 86% to 560k in 18 months by redesigning app and onboarding to focus on joining a meeting in 3 taps or less.
+Drove 24+ pt increase in tNPS, leading G2M to be the highest-rated app among WebEx, Teams, and Zoom.
+Improved release velocity for 5 dev teams by 60% up to 342% and reduced tech debt through Lean/Agile methods.
+Revived a $34M GoToMeeting project by securing executive buy-in and galvanizing team of 40+ with strategic pivots in product vision, architecture, and go-to-market strategy, saving $8M+ in recent investment and a 20% increase in beta DAU.
+Revived a $34M GoToMeeting project by securing executive buy-in and galvanizing team of 75+ with strategic pivots in product vision, architecture, and go-to-market strategy, saving $8M+ in recent investment and a 20% increase in beta DAU.
+Designed mobile strategy for iOS/Android for phones, tablets, and wearables in $350M collaboration product.
+Grew active mobile users 86% to 350K in 18 months by focusing on optimizing UX happy path.
+Accelerated development velocity 342% by adopting Agile and Lean methodologies, allowing the team to rebuild android app in 6 months that drove a 30% improvement in user retention.
+Accelerated dev velocity 342% with Lean processes, improving mobile retention 30% in 6 months.
+Accelerated dev velocity 342% and user retention 30% by adopting Agile and Lean methodologies.
+Improved user retention 30% and accelerated development velocity 342% by adopting Agile and Lean methodologies to reduce tech debt and reimagine Android app from scratch in < 6 months.
+Rescued next gen product vision and $6M in revenue by reinspiring executive sponsors and cross-functional teams with major innovations to product strategy, architecture, and go-to-market.
+Rescued next gen product vision and $34M in revenue by reinspiring executives and cross-functional teams with major innovations to product strategy, architecture, and go-to-market.
+Pioneered the industry-first, iOS-only screen sharing, a 0 to 1 experience, enabling a new mobile use case with expected revenue impact of $12M in net new business within 12 months post GA.
+Pioneered the industry-first, true screen sharing experience for iOS, enabling a new mobile use case and expected net new revenue of $12M+ within 12 months post GA.
+Pioneered iOS-only screen sharing experience with expected $12M ARR within 12 months of GA.
+Pioneered the first iOS-only screen-sharing experience, $17M in ARR with an enterprise pilot program.
+Led 20+ innovation tribes to 12 releases solving top 5% user pains, increasing NPS by 14 points.
+Saved multi-million dollar development project from suspension by proposing an alternate product vision, revenue model, and engineering approach for the next-gen GoToMeeting experience.
+Saved $6M+ in revenue retention by redirecting a languishing key development project to a narrowed scope and simplified the technical approach, go-to-market, and pricing model.
+Stepped in as turnaround PM for a troubled key development project saving $6M in revenue retention through redefining scope, technical approach, go-to-market, and pricing model.
+Built the product vision and strategy for the next-gen GoToMeeting experience across mobile, desktop, and web endpoints with a team of 30 Designers, Architects, Engineers, and Marketers.
+Stepped in as turnaround PM for a troubled key development project, saving $6M in revenue retention through major revisions to scope, technical approach, go-to-market and pricing models.
+Intervened as turnaround PM for a troubled, key development project, securing $6M in revenue retention through major revisions to strategy, architecture, go-to-market, and pricing models.
+Grew GoToMeeting iOS and Android MAU by 86% in 18 months to exceed 880k meetings/340k users.
+Grew iOS and Android apps' monthly usage by 86% to exceed 880,000 sessions and 340,000 users.
+Grew iOS & Android usage by 86% in 18 months to 880k meetings/340k MAU.
+Grew iOS & Android usage by 86% in 18 months with redesign of mobile apps and onboarding flow.
+Grew iOS & Android mobile usage by 86% in 18 months with usability and A/B testing.
+Improved velocity of 5 Dev teams by 60% to 340% each by optimizing teams' Agile practices.
+Led hackathon tribes of 40+ people to produce 15 grassroots solutions for mobile and hardware.
+Led dozens of hackathon tribes to 15 releases improving user flow or solving top user-reported pains.
+Retained $34M in net revenue, improved DAU 20% through re-building the GoToMeeting experience from scratch to hyper focus on solving customers' unmet needs in 3 actions or less.
+
+## Verio - Product Manager (Jul 2012 - Aug 2014)
+
+Promoted to lead team of 5 to pivot business and product portfolio strategy in $100M company.
+Led pivot from hosting to a higher-value B2B SaaS marketplace, preventing bankruptcy and enabling a $36M acquisition.
+Secured 22 SaaS partnerships, increasing gross margin by 42% and reducing integration fees by 73%.
+Rebuilt product marketing team post-70% RIF to lead go-to-market for pricing, positioning, segmentation, and enablement.
+Executed disruptive corporate turnaround, pivoting product strategy leading to company acquisition in 3 years.
+Built scrappy Product Marketing team of 5 interns, mentoring them through owning launch of flagship SaaS marketplace in NA, LATAM, and EMEA after Marketing headcount reduced by 70%.
+Negotiated 13 business development partnerships that raised average gross margin 42%.
+Negotiated 13 SaaS partnerships, raising avg gross margin 42% while cutting integration fees by 73%.
+Owned end-to-end go-to-market strategy for 22 product launches, including messaging strategy, personas, pricing, launch geos, sales channels, and sales training.
+Crafted corporate turnaround proposal leading from bankruptcy to acquisition 3 years.
+Crafted and executed company turnaround from bankruptcy to $13M acquisition in 3 years.
+Crafted and executed a disruptive product proposal (a SaaS Marketplace) that prevented company bankruptcy and led to being acquired for $36M 3 years later.
+Crafted and executed a disruptive product proposal by systematizing market trends that prevented company bankruptcy and led to being acquired for $36M 3 years later.
+Crafted and executed company turnaround from bankruptcy that led to $36MM acquisition in 3 years.
+Received exec buy-in on disruptive company turnaround focused on building a SaaS marketplace.
+Received exec buy-in on disruptive corporate strategy proposal to expand portfolio into SaaS.
+Recruited 13 SaaS apps to our proprietary marketplace and owned their go-to-market plans including messaging, pricing, distribution channels, persona definitions, and Sales and Support training.
+Negotiated 13 business development partnerships that raised avg gross margin by 42% and owned their go-to-market strategies including personas, messaging, pricing, distribution, and sales training.
+After Marketing dept. reduced by 70%, built scrappy PMM team of 5 that produced all go-to-market and sales enablement assets for launch of company turnaround initiative in NA, LATAM, and EMEA.
+After Marketing dept. reduced by 70%, built scrappy PMM team of 5 that designed and launched product and go-to-market strategies of company turnaround initiative in NA, LATAM, and EMEA.
+Managed Product Marketing team of 4 to produce 54 high-def Sales Enablement assets.
+Managed Product Marketing team that produced all sales enablement for NA, LATAM, and EMEA.
+Developed strategic pivot, from inception to launch, of SMB SaaS marketplace, leading to Verio's acquisition.
+Executed disruptive product strategy, from inception to launch, leading to company's acquisition 3 years later.
+
+## On Demand Software - Product Management Lead (Aug 2010 - May 2012)
+
+Led a team of three to define MVPs and execute go-to-market strategies for B2B and B2B2C SaaS products.
+Led a team of 3 in research, prioritization, and go-to-market strategy for 3 SaaS products. Defined MVP through qualitative studies and A/B tests, launching a B2C product across web, iOS, and Android, growing the user base from 0 to 300.
+Led team of 3 in user research, backlog prioritization, content, web design, and go-to-market for 3 products.
+Headed qualitative customer research to define MVP and initial design for new SaaS product.
+Launched go-to-market strategy across web, iOS and Android endpoints for B2C SaaS offering.
+Conducted qualitative customer research to define MVP and initial design for SaaS offering.
+Managed Marketing team to generate all product messaging, copy, and sales content across 3 projects.
+Managed content team to generate product positioning and messaging for 3 projects.
+Optimized website projected to place in top 5 hits for category keyword searches.
+
+## Career Highlights (Various versions)
+
+North Star Vision & Strategic Pivots – Led 8 strategic pivots that redefined product-market fit and unlocked transformational value in revenue growth, retention, and scalable profitability.
+AI/ML & Product Innovation: Spearheaded the productization of 12 ML models, including intelligent assistants and recommendation systems, generating $59M ARR and scaling enterprise adoption.
+Data Strategy & Scalable Analytics: Co-designed a data strategy to deliver atomic, unopinionated events to support more real-time analytics, reducing processing by 25%, improve scalability, and deliver actionable insights into customer behavior.
+Cross-Functional Leadership: Built and scaled teams of 10+ Product Managers and Designers, leading multi-phase enterprise projects to generate 8-figure revenue streams for large-scale PLG and CRO initiatives, and drove a 60% client extension rate.
+Agile Delivery Transformation: Improved delivery processes by 36%-364% across 24+ teams, mentoring cross-functional teams to deliver scalable AI and SaaS platforms by driving best practices in discovery, definition, development, and launch.
+PLG & Experimentation Strategy: Led 600+ experiments to refine PLG acquisition funnels, reduce friction, and maximize customer value, consistently delivering triple-digit improvements in conversion, engagement, retention, and revenue.
+Technical Leadership & Innovation: Rescued a $34M project to improve growth and scalability for $350M SaaS product by championing a strategic pivot in design, platform architecture, and GTM, accelerating delivery by 66% and beta's DAU by 20%.
+Strategy & Product Leadership: Led 11 new 0-1 product launches and 8 strategic pivots, scaling product lines to triple-digit gains in acquisition, engagement, retention, and revenue, resulting in 10x growth and $100M+ in revenue.
+Cross-Functional & Team Management: 7 years managing teams up to 12 reports and leading cross-functional teams of 70.
+AI/ML & Data-Driven Innovation: Led productization of 12 ML models to generate $40M ARR. Consulted on applying LLM and conversational AI in enterprises. At Noom, used clinical, UX, and research insights to raise acquisition 122% and ARR 47%.
+Agile & Technical Expertise: Improved development processes by 36% to 364% across 24+ teams. Mentored product managers, designers, and engineers to deliver scalable SaaS and AI/ML products through modern practices.

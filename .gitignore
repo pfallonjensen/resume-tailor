@@ -1,16 +1,19 @@
 # Personal data - each user keeps locally, never committed
-# Exclude all user data EXCEPT the _template folder
+# Exclude all user data EXCEPT _template and fallon-jensen (example)
 users/*/bullet-corpus.txt
 users/*/current-resume.*
 users/*/profile.md
 users/*/job-applications/
 
-# But keep everything in _template
+# Keep template and example user
 !users/_template/
 !users/_template/**
+!users/fallon-jensen/
+!users/fallon-jensen/**
 
-# User resume docs
+# User resume docs (but allow example)
 users/*/*.docx
+!users/fallon-jensen/*.docx
 
 # System files
 .DS_Store

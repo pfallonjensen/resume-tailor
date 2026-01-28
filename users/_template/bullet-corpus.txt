@@ -1,0 +1,43 @@
+# Bullet Corpus Template
+# =======================
+# This file contains ALL variations of your resume bullets - every achievement,
+# every way you've phrased something, every metric you have permission to claim.
+#
+# The anti-hallucination system uses this file as ground truth. If a word or phrase
+# doesn't exist somewhere in this corpus, Claude won't propose edits using it.
+#
+# FORMAT GUIDE:
+# -------------
+# Organize by company/role, most recent first
+# Include every variation you've ever written
+# Include rejected drafts (they contain useful vocabulary)
+# Don't worry about duplication - more is better for the validation system
+#
+# EXAMPLE:
+# --------
+# ## Company Name | Role Title | Dates
+# - Achieved [specific metric] by [action] resulting in [outcome]
+# - Led [scope] team of [size] to deliver [project] [timeframe]
+# - Built [product/system] from scratch that [impact]
+
+# =======================
+# YOUR BULLETS START HERE
+# =======================
+
+## [Company Name] | [Role Title] | [Start Date] - [End Date]
+
+# Copy your resume bullets here, including all variations you've written
+# Include metrics: revenue, percentages, team sizes, user counts, timeframes
+# Include technologies, methodologies, frameworks you've worked with
+# Include soft skills vocabulary: led, mentored, collaborated, influenced
+
+# Example bullets (delete these and add your own):
+# - Launched [product] generating $XM in first-year revenue
+# - Reduced [metric] by X% through [approach]
+# - Led cross-functional team of X to deliver [outcome]
+# - Built and scaled [system] to support X users
+
+## [Previous Company] | [Role] | [Dates]
+
+# Continue adding all your experience...
+# The more variations and vocabulary you include, the better the skill works
