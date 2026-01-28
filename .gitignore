@@ -1,0 +1,19 @@
+# Personal data - each user keeps locally, never committed
+users/*/bullet-corpus.txt
+users/*/current-resume.*
+users/*/profile.md
+users/*/job-applications/
+
+# Keep the template files
+!users/_template/
+
+# User resume docs (keep reference docs)
+users/*/*.docx
+
+# System files
+.DS_Store
+__pycache__/
+*.pyc
+
+# Scratch/temp files during processing
+scratchpad/

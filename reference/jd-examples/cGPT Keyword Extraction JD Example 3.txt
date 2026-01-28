@@ -1,0 +1,101 @@
+Principal ML Product Manager, Growth Platform
+Product Management | Mountain View, United States or Remote | San Francisco, United States | Remote, Americas | Full-Time
+Apply for this job
+ 
+We are looking for an experienced ML Product Manager to join our Growth Platform team. We are in the early days of development on a new platform that will dramatically improve the quality of customer messaging at Atlassian and turbocharge the growth of the business. You will join a squad of high-performing and collaborative PMs, Engineers, and Designers who have gotten initial traction and are ready to start scaling.
+In this role, you will work at the intersection of Advertising, Recommendation, and Messaging Platforms, leveraging your knowledge of machine learning, experimentation methodologies, and data-driven decision-making. A strong understanding of experimentation frameworks (A/B testing, multivariate testing, etc.) is essential, and direct experience with ML ranking systems is highly preferred.
+You will partner closely with engineering and data science teams to build features and drive innovation across our platform, ensuring we deliver personalized, impactful messaging to our customers at scale.
+If you are passionate about leveraging user-centric approaches to drive product adoption and growth, we would love to hear from you.
+This role will report into the Head of Product - Growth Platform.
+In this role you will:
+	•	Drive the product vision and roadmap for the messaging platform
+	•	Collaborate with cross-functional teams (engineering, design, data science) to execute on the roadmap
+	•	Leverage data and experimentation to continuously improve product performance
+	•	Lead efforts to integrate ML ranking systems for more personalized customer experiences
+	•	Monitor and analyze key product metrics to identify opportunities for improvement
+ 
+On your first day, we’ll expect that you have:
+	•	7+ years of experience building high-quality, successful products and customer experiences, with a strong focus on advertising, recommendation, or messaging platforms.
+	•	3 + years of experience in messaging, notifications or email platforms
+	•	Deep background in building platforms and incorporating ML
+	•	Proven experience in product-led growth; prior people management experience is a strong plus.
+	•	Deep understanding of experimentation methodologies (A/B testing, multivariate testing) and how to apply data-driven insights to improve product performance.
+	•	Direct experience with machine learning ranking systems or personalization engines is highly preferred.
+	•	Ability to break down complex, ambiguous problem spaces into clear, actionable strategies and execution plans.
+	•	Strong data-driven mindset, with the ability to dive deep into metrics to assess the impact of product decisions.
+	•	Comfortable navigating fast-paced environments, making rapid progress, and aligning diverse, opinionated stakeholders around a shared vision.
+Compensation
+At Atlassian, we strive to design equitable, explainable, and competitive compensation programs. To support this goal, the baseline of our range is higher than that of the typical market range, but in turn we expect to hire most candidates near this baseline. Base pay within the range is ultimately determined by a candidate's skills, expertise, or experience. In the United States, we have three geographic pay zones. For this role, our current base pay ranges for new hires in each zone are:
+Zone A: $190,400 - $253,800
+Zone B: $171,400 - $228,500
+Zone C: $158,000 - $210,700
+This role may also be eligible for benefits, bonuses, commissions, and equity.
+Please visit go.atlassian.com/payzones for more information on which locations are included in each of our geographic pay zones. However, please confirm the zone for your specific location with your recruiter.
+Our perks & benefits
+Atlassian offers a variety of perks and benefits to support you, your family and to help you engage with your local community. Our offerings include health coverage, paid volunteer days, wellness resources, and so much more. Visit go.atlassian.com/perksandbenefits to learn more.
+ 
+About Atlassian
+At Atlassian, we're motivated by a common goal: to unleash the potential of every team. Our software products help teams all over the planet and our solutions are designed for all types of work. Team collaboration through our tools makes what may be impossible alone, possible together.
+We believe that the unique contributions of all Atlassians create our success. To ensure that our products and culture continue to incorporate everyone's perspectives and experience, we never discriminate based on race, religion, national origin, gender identity or expression, sexual orientation, age, or marital, veteran, or disability status. All your information will be kept confidential according to EEO guidelines.
+To provide you the best experience, we can support with accommodations or adjustments at any stage of the recruitment process. Simply inform our Recruitment team during your conversation with them.
+Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.
+To learn more about our culture and hiring process, visit go.atlassian.com/crh.
+ 
+ 
+ 
+ 
+Here's the output from ChatGPT based on the prompt for keyword extraction you've been given:
+ 
+ 
+Here is the categorized list of the top keywords and phrases from the job description:
+Key Skills
+	•	Primary Keywords:
+	•	Product Vision and Roadmap: Drive product vision and roadmap for the messaging platform.
+	•	Machine Learning: Incorporate ML into product development, direct experience with ML ranking systems or personalization engines.
+	•	Experimentation Methodologies: Deep understanding of A/B testing, multivariate testing, experimentation methodologies.
+	•	Data-Driven Decision Making: Leverage data and experimentation to improve product performance, strong data-driven mindset.
+	•	Platform Building: Experience in building advertising, recommendation, or messaging platforms.
+	•	Cross-Functional Collaboration: Collaborate with engineering, design, data science teams.
+	•	Secondary Keywords:
+	•	People Management: Prior people management experience.
+	•	Problem Solving: Break down complex, ambiguous problems into actionable strategies.
+	•	User-Centric Approaches: Drive product adoption through user-centric approaches.
+	•	Fast-Paced Environment: Comfortable navigating fast-paced environments and aligning stakeholders.
+Industry Concepts
+	•	Primary Keywords:
+	•	Growth Platform: Focus on building and scaling a growth platform.
+	•	Advertising, Recommendation, and Messaging Platforms: Familiarity with these types of platforms is essential.
+	•	Product-Led Growth: Proven experience with product-led growth strategies.
+	•	Secondary Keywords:
+	•	Customer Messaging: Improve quality of customer messaging.
+	•	Personalization: Personalized customer experiences through ML ranking systems.
+Key Responsibilities
+	•	Primary Keywords:
+	•	Product Roadmap Execution: Drive and execute the product roadmap.
+	•	Feature Development and Innovation: Partner with engineering and data science teams to build features and drive innovation.
+	•	Metrics Monitoring: Monitor and analyze key product metrics for opportunities to improve.
+	•	Secondary Keywords:
+	•	ML Integration: Lead efforts to integrate ML ranking systems.
+	•	Cross-Functional Team Collaboration: Collaborate with engineering, design, and data science.
+Tools and Technologies
+	•	Primary Keywords:
+	•	Experimentation Frameworks: A/B testing, multivariate testing.
+	•	Secondary Keywords:
+	•	Machine Learning Ranking Systems: ML ranking systems or personalization engines.
+Cultural/Attitudinal Skills
+	•	Primary Keywords:
+	•	Collaboration and High-Performing Teams: Work with high-performing and collaborative PMs, Engineers, Designers.
+	•	Passion for User-Centric Growth: Passionate about leveraging user-centric approaches.
+	•	Secondary Keywords:
+	•	Stakeholder Alignment: Aligning diverse, opinionated stakeholders around a shared vision.
+Qualifications
+	•	Primary Keywords:
+	•	7+ Years of Product Management Experience: In building successful products and customer experiences, with a focus on advertising, recommendation, or messaging platforms.
+	•	3+ Years in Messaging Platforms: Experience in messaging, notifications, or email platforms.
+	•	Machine Learning Experience: Direct experience in building platforms with ML, specifically ranking systems.
+	•	Secondary Keywords:
+	•	Proven Experience in Product-Led Growth: Experience in scaling through product-led initiatives.
+	•	People Management Experience: Prior management experience is a plus.
+The primary keywords represent the core skills, responsibilities, tools, and qualifications that are critical to tailoring a resume to match this job description, while secondary keywords reflect additional requirements or attributes that may enhance a candidate's application. To match this JD effectively, a candidate should prioritize aligning their experience and skills with the primary keywords, ensuring at least 60% coverage.
+ 
+

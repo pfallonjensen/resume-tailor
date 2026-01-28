@@ -1,0 +1,103 @@
+The Job Description as listed:  Description:
+Vice President, Product
+Product  Remote (USA)  Remote (EU)
+PandaDoc is seeking a passionate and experienced Vice President of Product to lead our product strategy and execution for our core product experience. The VP of Product will play a pivotal role in aligning our product and business strategies, improving adoption of core functionality, and strengthening the connection between our product team and other departments. The ideal candidate will be an expert in the craft of product management, with the ability to inspire and guide a growing team of over 15 Product Managers and Directors. The role will be reporting directly to the Chief Product Officer.
+In this role, you will:
+	•	Develop and own the strategy and roadmap for our core product and business solutions, ensuring a cohesive and aligned product strategy
+	•	Lead, mentor, and manage the performance of a growing team of Product Managers, fostering a culture of excellence and continuous learning
+	•	Attract, recruit, and retain top talent to grow our product team, ensuring that it remains competitive and highly capable
+	•	Act as the ultimate customer champion, continuously viewing the product from the end-user’s perspective and driving the complete experience to the best possible outcome 
+	•	Establish strong connections between Product and other departments including Sales, Customer Success, and Marketing. Collaborate on planning and setting common goals to ensure alignment and cohesion across the organization
+	•	Partner closely with our Engineering and Design organizations to ensure seamless execution of product strategy and roadmap
+	•	Conduct competitive product analysis and intelligence, keeping our product competitive and innovative in the market
+	•	Own key product metrics including Adoption, Retention and NPS, and develop strategies to improve these metrics
+	•	Be responsible for communicating product strategy, plans, and roadmaps to the rest of the organization, providing clear direction and expectations
+About you:
+	•	Minimum of 10 years of experience in Product Management, including at least 5 years in a leadership role
+	•	Proven track record of developing and executing successful product strategies in a SaaS environment, particularly in a heavy product-led growth environment
+	•	Strong leadership and team development skills, with a focus on mentoring and coaching
+	•	Demonstrated ability to work cross-functionally with Sales, Marketing, Customer Success, and Engineering teams
+	•	Exceptional communication and presentation skills, with the ability to influence and inspire at all levels of the organization
+	•	Customer-centric mindset, with a passion for understanding and solving customer problems
+	•	Experience with metrics-driven product management, with a strong understanding of key product metrics
+	•	Experience working across globally distributed teams
+	•	Bachelor’s degree in a related field. An MBA or advanced degree is a plus
+ 
+Benefits:
+	•	An honest, open culture that emphasizes feedback and promotes professional and personal development
+	•	An opportunity to work from anywhere — our team is distributed worldwide, from Lisbon to Manila, from Florida to California
+	•	6 self care days
+	•	A competitive salary
+	•	And much more!
+ 
+ 
+PandaDoc is an Equal Opportunity Employer. We are committed to equal treatment of all employees without regard to race, national origin, religion, gender, age, sexual orientation, veteran status, physical or mental disability or other basis protected by law.
+EXTERNAL RECRUITERS
+Approval Requirement
+The use of external recruiters/staffing agencies requires prior approval from our HR Team. The HR Team at PandaDoc requests that external recruiters/staffing agencies not to contact PandaDoc employees directly in an attempt to present candidates. Complying with this request will be a factor in determining future professional relationships with PandaDoc.
+Applications Deadline 9/25
+ 
+From <https://www.pandadoc.com/careers/vice-president-product/> 
+ 
+ 
+ 
+Here's the output from ChatGPT based on the prompt for keyword extraction you've been given:   
+Here's a categorized list of the top keywords and phrases extracted from the job description, ranked as Primary or Secondary based on their importance:
+Key Skills
+Primary
+	•	Product strategy
+	•	Product management
+	•	Leadership and team development
+	•	Mentoring and coaching
+	•	Customer-centric mindset
+	•	Cross-functional collaboration
+	•	Metrics-driven product management
+	•	Communication and presentation skills
+Secondary
+	•	Recruiting and talent retention
+	•	Competitive product analysis
+Industry Concepts
+Primary
+	•	SaaS environment
+	•	Product-led growth
+	•	Customer adoption, retention, and NPS (Net Promoter Score)
+	•	Competitive intelligence
+Secondary
+	•	Core product experience
+	•	End-user perspective
+Key Responsibilities
+Primary
+	•	Develop and own product strategy and roadmap
+	•	Lead and mentor product managers and directors
+	•	Drive product adoption, retention, and NPS
+	•	Establish strong connections with Sales, Marketing, and Customer Success
+	•	Partner with Engineering and Design to execute product roadmap
+	•	Drive competitive product analysis and market intelligence
+Secondary
+	•	Communicate product strategy and roadmap across the organization
+	•	Attract and recruit top talent
+	•	Champion customer experience
+Tools and Technologies
+	•	Primary
+	•	None specifically mentioned
+	•	Secondary
+	•	None specifically mentioned
+Cultural/Attitudinal Skills
+Primary
+	•	Passionate about product management
+	•	Customer champion
+	•	Culture of excellence and continuous learning
+Secondary
+	•	Openness and honest feedback
+Qualifications
+Primary
+	•	10+ years of experience in Product Management
+	•	5+ years in a leadership role
+	•	Proven track record in SaaS and product-led growth
+Secondary
+	•	Bachelor's degree in a related field
+	•	MBA or advanced degree is a plus
+	•	Experience with globally distributed teams
+Summary for Resume Matching
+To align your resume with this job, you should ensure it matches at least 60% of the primary keywords, focusing on demonstrating experience in product strategy, leadership, SaaS environments, product-led growth, metrics-driven product management, and cross-functional collaboration. Emphasizing your skills in mentoring, customer-centricity, and communication would also be key.
+

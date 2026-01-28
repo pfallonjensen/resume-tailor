@@ -1,0 +1,90 @@
+KB 3C: Handling Multi-Sentence Bullet Points and Flow Requirements - Final Version
+Purpose The purpose of KB 3C is to provide guidelines on maintaining flow, accuracy, and conciseness across bullet points, especially for those comprising multiple sentences. It ensures that each sentence is handled independently while preserving the overall cohesion of the bullet point.
+
+Sections:
+3C.1 Managing Multi-Sentence Bullet Points
+	•	Multi-Sentence Structure Acknowledgment:
+	•	Bullet points may contain multiple sentences, each representing a different facet of an achievement, such as outcomes, methodologies, or supporting details.
+	•	Each sentence should be evaluated independently for keyword integration, ensuring there is direct support for any keyword added without relying on implied relationships across the bullet.
+Cross-Reference for Verification:
+	•	Refer to KB Examples - Negative Example List for instances where incorrect assumptions across sentences led to inconsistencies.
+	•	Balancing Independence and Cohesion:
+	•	Sentence-Level Independence:
+	•	Each sentence must stand on its own in terms of evidence and coherence.
+	•	Thematic Cohesion:
+	•	The overall theme of the bullet point should remain intact, even when keywords are added. Keywords should connect logically to the broader context of the bullet point.
+Cross-Reference for Verification:
+	•	Refer to KB 1 - Section 1.5 (Apply Keywords at Sentence Level) to ensure keywords are appropriately applied to individual sentences.
+	•	Refer to KB Examples - Gray Area Example List for examples of balancing sentence-level independence while maintaining thematic cohesion.
+
+3C.2 Thematic Evaluation and Connections
+	•	Steps for Thematic Evaluation:
+	•	Step 1: Identify the primary theme connecting all sentences within the bullet point.
+	•	Step 2: Ensure each keyword added aligns with the theme and does not introduce a new or unrelated concept.
+	•	Step 3: Reevaluate the bullet point to verify that the integration flows naturally between sentences.
+Cross-Reference for Verification:
+	•	Refer to KB Examples - Positive Example List for examples of successfully maintaining thematic consistency across sentences.
+	•	Types of Thematic Connections:
+	•	Cause and Effect: One sentence leading to an outcome in the next.
+	•	Sequential Process: Sentences that describe a progression of tasks or phases.
+	•	Supportive Detail: Secondary sentences providing context or details to the main action described.
+
+3C.3 Verification Across Sentences for Keyword Addition
+	•	Verification Checklist for Multi-Sentence Bullet Points:
+	•	Thematic Consistency: Ensure that any new keyword added matches the theme of the entire bullet point.
+	•	Logical Flow: Confirm that each sentence logically follows the previous one without introducing abrupt shifts in tone or meaning.
+	•	Conflict Avoidance: Ensure that a new keyword or phrase does not contradict the information in another part of the bullet point.
+Cross-Reference for Verification:
+	•	Refer to KB 1 - Section 1.6 (Two-Level Verification) to validate that changes at the sentence level are cohesive and maintain the intended meaning.
+	•	Handling Sentence-Level Modifications:
+	•	Context Verification Across Sentences:
+	•	After adding a keyword, review the entire bullet point to confirm that all sentences remain cohesive.
+	•	If a modification changes the overall tone or meaning of a sentence, log the change in the Verification Log and consider reverting it to preserve accuracy.
+	•	Verification Log Requirements:
+	•	Document each change at the sentence level, specifying where the keyword was added and how it aligns with resume content.
+	•	Quote the original bullet point, provide the updated version, and confirm character length compliance.
+	•	Refer to KB 1 - Section 1.1 (Direct Evidence Only) and Section 1.5 (Apply Keywords at Sentence Level) to ensure keywords are supported by explicit evidence and do not infer unsupported relationships.
+Verification Log Example:
+	•	Original Bullet Point: "Optimized team workflows, reducing project lead time by 15%. Enhanced project visibility by introducing new reporting dashboards."
+	•	Keyword Added: "cross-functional"
+	•	Modified Bullet Point: "Optimized cross-functional team workflows, reducing project lead time by 15%. Enhanced project visibility by introducing new reporting dashboards."
+	•	Context Match Confirmation: Confirmed that the added keyword aligns with the focus on team-based achievements without altering the original scope or introducing unrelated context.
+	•	Character Length Compliance: Resulting bullet point is 190 characters.
+
+3C.4 Flow, Accuracy, and Conciseness Requirements
+	•	Flow Maintenance:
+	•	Changes should maintain a natural flow, ensuring sentences connect smoothly and logically.
+Cross-Reference for Verification:
+	•	Refer to KB Examples - Positive Example List for examples where flow was successfully maintained during keyword integration.
+	•	Accuracy and Specificity:
+	•	Avoid generalizing specific actions or achievements from the original bullet point.
+	•	Ensure every added keyword is explicitly supported by the content, avoiding the risk of hallucination.
+Cross-Reference for Verification:
+	•	Reference KB 1:
+	•	Use Section 1.2 (Explicit Reference Mapping) for ensuring accuracy in adding or modifying details.
+	•	Use Section 1.3 (No Assumptions from Job Descriptions Alone) to avoid relying solely on job description prompts.
+	•	Refer to KB Examples - Negative Example List for examples where loss of accuracy led to weaker bullet points.
+
+3C.5 Practical Examples for Handling Multi-Sentence Bullet Points
+	•	Example of Adding a Keyword Independently to a Sentence:
+	•	Before: "Reduced production costs by 20%. Improved production quality by applying Six Sigma methodologies."
+	•	After (Keyword Added): "Reduced production costs by 20%. Enhanced production quality by applying Six Sigma methodologies for continuous improvement."
+	•	Explanation: The keyword "continuous improvement" was added specifically to the second sentence without assuming context from the first.
+Cross-Reference for Verification:
+	•	Refer to KB Examples - Positive Example List for successful examples of independent keyword additions.
+	•	Thematic Keyword Integration Example:
+	•	Before: "Increased customer retention by 15%. Implemented targeted campaigns across key segments."
+	•	After (Keyword Integrated): "Increased customer retention by 15%. Implemented targeted customer segmentation campaigns, enhancing personalized marketing initiatives."
+	•	Explanation: The keyword "customer segmentation" was added in a way that preserved the logical progression between actions.
+Cross-Reference for Verification:
+	•	Refer to KB Examples - Gray Area Example List for nuanced examples of thematic integration.
+
+3C.6 Verification and Documentation for Multi-Sentence Changes
+	•	Context Re-Evaluation:
+	•	Always perform a final review of multi-sentence bullet points to ensure that changes to one sentence do not negatively affect the other sentences.
+Cross-Reference for Verification:
+	•	Refer to KB 1 - Section 1.6 (Two-Level Verification) for guidance on verifying context consistency across multiple sentences.
+	•	Verification Logging for Each Sentence:
+	•	Document the specific sentence modified, the keyword added, and verify it against explicit content within the resume.
+	•	Include the original bullet point, updated version, and verify character length compliance.
+	•	Refer to KB 4 - Section 4.2 for examples and guidance on logging keyword additions in multi-sentence bullet points.

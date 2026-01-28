@@ -1,0 +1,67 @@
+Recommendation: A “Quick Re-Intro” Paragraph
+When restarting a conversation, 
+Hey! Here’s a refresher on me: I’m Fallon Jensen, a product leader with deep experience in enterprise SaaS, AI, PLG, and zero-to-one product launches. I’ve driven $100M+ in ARR, led 600+ experiments, and built multiple AI-powered products from scratch. I’m working on tailoring my resume for high-impact roles in AI/ML, platform, and growth product strategy. My tone is confident, concise, and real — I avoid corporate speak and focus on impact. This doc contains the full backstory/context. Let’s pick up where we left off.
+
+
+Core Narrative & Positioning Reminders
+	•	Your USP (Unique Selling Proposition): You blend AI product innovation, user journey optimization, and growth strategy with a strong grasp of data, storytelling, and execution.
+	•	Go-to Market Lens: You’re product-led and outcome-driven, but with a marketer’s eye for messaging, framing, and how to resonate with customers.
+	•	You favor substance over buzzwords: You’re allergic to vague phrases like “thrives in fast-paced environments,” “proven leader,” or “strategic thinker.” You prefer authentic, punchy, human phrasing over resume fluff.
+
+✍️ Tone & Voice Preferences (refined for clarity)
+	•	You dislike passive or overly “corporate” tone.
+	•	You prefer sentence fragments and clean bullets over long compound phrases.
+	•	You want your materials to sound like you wrote them — confident, sharp, sometimes informal, but always intentional.
+	•	“Show the impact, not just the action.” You care more about what changed than what was done.
+
+💡 Strategic Resume Writing Reminders
+	•	Avoid generic titles: Every section title (summary, career highlights, bullets) must feel tailored and differentiating.
+	•	Start with impact, not role duties: Resume bullets must open with the result or value delivered — not what you were responsible for.
+	•	Avoid tech for tech’s sake: You want AI/ML included only when directly relevant or substantiated. You reject “AI-washing” or speculative buzzwords.
+	•	0→1 framing matters: It’s important to highlight your work starting or scaling products, especially where you set vision and GTM strategy.
+	•	You respect metrics: But only if they’re tied to business outcomes — not vanity metrics.
+
+🔁 Recurring Edits You’ve Made (so we don’t repeat mistakes)
+	•	Replacing “thrive in fast-paced environments” with “my natural energy fits best in fast-moving teams”
+	•	Changing “I led” intros to action-first impact framing
+	•	Removing “proven,” “experienced,” “results-driven” unless they’re backed with metrics or specifics
+	•	Avoiding resume clichés like “visionary,” “strategic,” or “cross-functional” unless followed by hard evidence
+
+  "1. Personal Brand & Professional Style": [
+        "Fallon Jensen is a seasoned product leader with over 10 years of experience in enterprise SaaS, PLG, and AI/ML product development.",
+        "Prefers writing that is clear, direct, and avoids corporate jargon like 'thrive' or 'excel'. Values raw, authentic, yet polished tone.",
+        "Enjoys language that balances impact with humility—avoids overused phrases like 'proven leader' and prefers showcasing results with specificity.",
+        "Prefers concise, energetic summaries with strong hooks in the first 5-10 words."
+    ],
+    "2. Key Career Highlights & Metrics": [
+        "Generated $100M+ in ARR through AI innovation, data-driven growth strategies, and 0-1 product development.",
+        "Launched 11 zero-to-one products across B2C, B2B, and enterprise SaaS platforms.",
+        "Led 600+ experiments driving triple-digit gains in engagement, retention, and revenue.",
+        "Developed and launched 12 ML/AI-powered tools including an AI assistant for GoToMeeting, contributing to $59M ARR.",
+        "Scaled and mentored teams of 10+ PMs and Designers; led multi-phase AI projects for Fortune 500 companies.",
+        "Boosted ARPU by 37%, LTV by 2X, and retention by 60% through onboarding, pricing, and freemium strategy optimizations."
+    ],
+    "3. Resume & Writing Preferences": [
+        "Prefers career highlights to be written in a 'title: summary' format, with each bullet tightly scoped to results.",
+        "Wants measurable impact in each bullet: revenue impact, percentage gains, MAU growth, etc.",
+        "Dislikes repetition in phrasing across bullets or summaries. Avoids buzzwords without substance.",
+        "Wants summaries and taglines that open with action or metrics—not generic labels.",
+        "Enjoys thematic summaries that link product work to strategic business outcomes, platform thinking, and cross-functional collaboration."
+    ],
+    "4. Target Roles & Positioning": [
+        "Positioning for Group Product Manager, VP of Product, or Director-level roles with a focus on AI innovation, enterprise SaaS, PLG, and platform-level growth.",
+        "Strong interest in companies at the intersection of AI and productivity, including B2B and B2C SaaS.",
+        "Tailors messaging carefully to company mission—e.g., aligns messaging around trust, extensibility, and proactive AI experiences when targeting HubSpot."
+    ],
+    "5. Career Messaging Toolkit": [
+        "Three core principles: Data-Driven Decision Making, Customer-Centered Design, and Strategic Execution.",
+        "Consistently brings a systems-level mindset, turning complexity into scalable and elegant solutions.",
+        "Known for cross-functional influence, leadership in ambiguity, and ability to drive business outcomes through experimentation and analytics."
+    ],
+    "6. Writing Style Guidance": [
+        "Avoid em-dashes and overly formal tone.",
+        "Use friendly, conversational phrasing when writing cold messages (e.g., LinkedIn DMs).",
+        "Value is communicated through concrete impact—not abstract strategy. Lead with the outcome, then the how.",
+        "Hook early. Don’t save the best metrics or achievements for the second line."
+    ]
+}

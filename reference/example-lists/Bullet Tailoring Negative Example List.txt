@@ -1,0 +1,71 @@
+Negative Examples (Things Not to Do)
+	•	Unnecessary Wordiness
+	•	Original Bullet Point:
+"Led 11 new 0-1 product launches and 8 strategic pivots, scaling product lines to triple-digit gains in acquisition, engagement, retention, and revenue, resulting in 10x growth and $100M+ in revenue."
+	•	Modified by GPT:
+"Led 11 new 0-1 product launches and 8 strategic pivots, scaling product lines to triple-digit gains in acquisition, engagement, retention, and revenue, resulting in 10x growth and $100M+ in revenue. Focused on implementing product-led growth strategies to accelerate market adoption."
+	•	Problem: Added unnecessary words ("Focused on implementing product-led growth strategies...") resulting in exceeding character limits, with minimal additional value to the original bullet point.
+	•	Excessive Additions for "Drivers" and "Humility":
+	•	Original Bullet Point:
+"7 years managing teams up to 12 reports and leading cross-functional teams of 70."
+	•	Modified by GPT:
+"7 years managing teams up to 12 reports and leading cross-functional teams of 70. Cultivated a team culture emphasizing 'Drivers' to ensure ownership and high performance. Encouraged humility among team members, fostering collaboration and self-awareness."
+	•	Problem: Added a long-winded explanation for "Drivers" and "Humility" which diluted the impact of the original point and caused character overflow.
+	•	Truncating Bullet Points:
+	•	Original Bullet Point:
+"Led productization of 12 ML models to generate $40M ARR. Consulted on applying LLM and conversational AI in enterprises. At Noom, used clinical, UX, and research insights to raise acquisition 122% and ARR 47%."
+	•	Modified by GPT (Truncated):
+"Led productization of 12 ML models to generate $40M ARR. Consulted on applying LLM and conversational AI in enterprises. At Noom, used clinical, UX, and research ins..."
+	•	Problem: The truncated version cuts off essential context and reduces the readability and flow of the bullet point. This undermines its impact for recruiters.
+
+
+Negative Example: Incorrect Inclusion of "API Integration"
+Context
+	•	Job Description Reference: The role required experience with "API Integration" for product growth.
+	•	Bullet Point Updated:
+Grew user base from 0 to 1400 B2B customers for fintech startup, achieving 98% 12-month retention, 28% conversion to paid, and increased ARR by 70% through customer discovery and iterative experimentation on packaging and go-to-market strategy.
+Reason for Keyword Inclusion
+The keyword "API Integration" was added to align with the job description. This decision was based on a reference to reducing friction in "NLU/Dialog paths for smoother customer interactions" in another bullet point, assuming technical integration might have been involved.
+Logical Fallacy
+	•	Non-Overlapping Contexts: The original bullet points described different projects. Referencing one bullet point to justify adding a keyword to another, unrelated bullet point created a context mismatch.
+	•	Incorrect Assumption: The mention of optimizing "dialogue paths" referred to logical flow improvements, not backend API work. Thus, adding "API Integration" was an incorrect inference.
+Why This Matters
+	•	Inaccuracy: Adding "API Integration" implies backend involvement that was never part of the work, risking misrepresentation of experience.
+	•	Avoiding the Error:
+	•	Keyword Match by Context: Add keywords only if explicitly supported by the bullet point's content.
+	•	No Assumptions: Avoid assuming technical involvement without clear evidence.
+
+Negative Example: High-Velocity Experimentation at Noom
+Original Bullet Point:
+	•	"Led high-velocity experimentation boosting trials by 122% and ARR by 47% within 3 months leveraging a mix of A/B testing and simulated ML techniques to optimize testing velocity despite heavy constraints on user traffic."
+Previous Update:
+	•	"Led high-velocity experimentation boosting trials by 122% and ARR by 47% within 3 months, contributing to a product-led growth strategy by leveraging A/B testing and simulated ML techniques."
+Issues with Previous Update:
+	•	The revision effectively added "product-led growth," which was a relevant keyword, but in doing so, removed critical information about "optimizing testing velocity." This reduction weakened the technical depth and made the achievement less explicit.
+	•	Additionally, the constraint detail ("despite heavy constraints on user traffic") was removed, which, while secondary, added context regarding the difficulty of the achievement.
+Updated Revision Based on Your Feedback:
+	•	"Led high-velocity experimentation boosting trials by 122% and ARR by 47% within 3 months, contributing to a product-led growth strategy by leveraging A/B testing and simulated ML techniques to optimize testing velocity."
+Impact of the Preferred Revision:
+	•	This updated version retains both the product-led growth keyword and the important detail about optimizing testing velocity, demonstrating expertise in testing efficiency.
+	•	The supplemental information about limited user traffic was omitted to remain within character limits, as it was deemed less impactful compared to optimizing velocity.
+Negative Example Conclusion:
+	•	Avoid Removal of Key Technical Details: Removing specifics such as "optimizing testing velocity" diminishes the perceived expertise.
+	•	Balance Keyword Addition with Original Context: If a keyword can be added without sacrificing technical depth, prioritize keeping as much of the original context intact.
+
+Negative Example: Strategic Pivot at ProdUX Growth Consulting
+Original Bullet Point:
+	•	"Directed a strategic pivot from B2C to B2B2C for a web3 data marketplace achieving profitability in under 12 months. This pivot accelerated the revenue forecast by 3 years by focusing on W3C verifiable credentials on Ethereum’s network."
+Previous Update:
+	•	"Directed a strategic pivot from B2C to B2B2C for a web3 data marketplace, including API integration, achieving profitability in under 12 months and accelerating the revenue forecast by 3 years."
+Issues with Previous Update:
+	•	The removal of "W3C verifiable credentials" led to a loss of important technological specificity that was crucial for demonstrating the depth of expertise and credibility.
+	•	The addition of "API integration" was logical, but the context of the technological elements was compromised.
+Updated Revision Based on Your Feedback:
+	•	"Directed a strategic pivot to B2B2C for a web3 data marketplace, including API integration, achieving profitability in under 12 months and accelerating revenue forecast by 3 years by focusing on W3C verifiable credentials."
+Impact of the Preferred Revision:
+	•	This version preserves the essential technological context—"W3C verifiable credentials"—which is key to maintaining the bullet's impact.
+	•	Adding "API integration" enhances ATS optimization without sacrificing key information about the technology stack.
+Negative Example Conclusion:
+	•	Retain Technological Specificity: Removing specific references such as "W3C verifiable credentials" dilutes the level of technical depth, which can weaken the credibility.
+	•	Ensure Added Keywords Do Not Compromise Core Details: Keywords like "API integration" should be added in addition to, rather than at the cost of, existing impactful content.
+

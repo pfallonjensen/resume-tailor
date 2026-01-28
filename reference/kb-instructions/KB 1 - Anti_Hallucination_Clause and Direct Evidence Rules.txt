@@ -1,0 +1,101 @@
+KB 1: Anti-Hallucination Clause and Direct Evidence Rules
+Purpose: The Anti-Hallucination Clause is designed to ensure that any modification made to resume bullet points is explicitly supported by evidence from the resume. It is foundational to maintaining the accuracy and integrity of all modifications. The guidelines prevent any form of misinformation, fabrication, or unverified modification, ensuring that each change is grounded in reality.
+
+Sections:
+1.1 Direct Evidence Only
+Guideline:
+	•	No New Details: Under no circumstances should new details be invented, inferred, or derived unless they are explicitly present in the resume or knowledge base. This means every addition, modification, or change must be fully supported by information that is already present.
+	•	Grounding in Existing Content: Each bullet point modification must be grounded directly in a specific line or existing bullet point from the resume.
+Action Steps:
+	•	Before adding or modifying content, identify the supporting line or bullet point in the resume that justifies the change.
+	•	Use the Verification Log to document the exact original bullet point that supports the modification, ensuring there is a verifiable reference.
+Cross-Reference for Verification:
+	•	Refer to Section 1.6 (Two-Level Verification) for further verification requirements to ensure alignment with the bullet point’s context and flow.
+	•	Refer to KB Examples - Positive Example List for examples of how changes can be explicitly supported by existing evidence.
+	•	Refer to KB Examples - Negative Example List for examples of what constitutes unsupported changes.
+	•	Refer to KB Examples - Gray Area Example List for scenarios that may require more nuanced verification.
+
+1.2 Explicit Reference Mapping
+Reference Mapping Requirement:
+	•	Each keyword addition or modification must be supported by a direct reference to an exact section or bullet point in the resume.
+	•	This ensures that every change made is fully traceable back to the source content in the resume.
+How to Map References:
+	•	When adding a keyword or making changes, note down the original bullet point or specific section of the resume that justifies the inclusion.
+	•	Maintain a record for each modification in the Verification Log, including:
+	•	Original Bullet Point: Include the exact bullet point before modification.
+	•	Modified Version: State the updated bullet point, highlighting the changes made.
+Rejection of Unsupported Content:
+	•	If no explicit reference can be found, the keyword or proposed change must be rejected.
+	•	In such cases, use the Verification Log to justify rejections, clearly noting the absence of supporting evidence.
+Cross-Reference:
+	•	Refer to KB Examples - Negative Example List for instances where lack of reference resulted in a rejection.
+
+1.3 No Assumptions from Job Descriptions
+Strict Guidance:
+	•	Keywords from Job Descriptions: Keywords listed in the job description must only be added if they are fully supported by explicit content from the resume.
+	•	Guidance, Not Grounds: Job descriptions are helpful in understanding context but are not a source of information for modifications. All modifications must be fully backed by existing resume content.
+Rejection Example:
+	•	If the job description suggests adding a keyword like "strategic initiatives," it should only be added if there is an explicit mention of such initiatives in the resume. Otherwise, reject the keyword.
+Cross-Reference:
+	•	Refer to KB Examples - Gray Area Example List for guidance on handling ambiguous cases of job description keyword inclusion.
+
+1.4 Verification Log Requirements
+Purpose: The Verification Log ensures that every change made to the resume has a clear justification and traceability back to existing content. This is critical for accountability and maintaining accuracy.
+Log Entries Should Include:
+	•	Keyword Added: Document the specific keyword that was added.
+	•	Original Bullet Point: Copy the exact bullet point in its original form.
+	•	Modified Version: Provide the new version of the bullet point after modification, with changes highlighted.
+	•	Change Description: Clearly specify what was added, removed, or rephrased.
+	•	Context Match Confirmation: Confirm that the added content matches the context and flow of the original bullet point.
+	•	Character Length Compliance:
+	•	One-Line Bullet Points: Ensure the updated bullet point is between 80-116 characters.
+	•	Two-Line Bullet Points: Ensure the updated bullet point is between 175-235 characters.
+	•	Adjustment Justification: If the final length falls between 117-174 characters, document the adjustments made to retain essential content while refining the length.
+Example Verification Log Entry:
+	•	Keyword Added: "Product Funnel Optimization"
+	•	Original Bullet Point: "Generated $23M+ in revenue by leading 7 PMs across 20+ pitches and high-profile projects to operationalize growth, including UnderArmour and WeTransfer’s conversion optimizations."
+	•	Modified Version: "Generated $23M+ in revenue by leading 7 PMs across 20+ pitches, driving product funnel optimization, and operationalizing growth, including UnderArmour and WeTransfer’s conversion optimizations."
+	•	Change Description: Added the phrase "driving product funnel optimization."
+	•	Context Match: Confirmed alignment with the original goal of driving growth metrics.
+	•	Character Length Compliance: Resulting bullet point is 182 characters.
+Cross-Reference:
+	•	Refer to KB Examples - Positive Example List for examples of properly documented changes in the Verification Log.
+
+1.5 Apply Keywords at Sentence Level
+Sentence-Level Application:
+	•	Keyword Integration: Apply keywords at the sentence level, ensuring that each keyword is supported by at least one part of the bullet point.
+	•	Independent Evaluation: Each sentence within a multi-sentence bullet point should be evaluated independently to ensure explicit support.
+Avoid Partial Inferences:
+	•	Do Not Infer Relationships: Avoid making assumptions based on relationships between different sentences within the same bullet point. Each keyword must have a direct reference within the specific sentence where it is used.
+Cross-Reference for Verification:
+	•	Refer to Section 1.1 (Direct Evidence Only) for guidelines on ensuring that every sentence modification is explicitly supported by evidence, without inferred relationships.
+	•	Refer to KB Examples - Negative Example List for examples of improper inferences.
+	•	Refer to KB Examples - Gray Area Example List for nuanced cases of keyword application across multiple sentences.
+Example:
+	•	If integrating "data-driven insights," make sure that the sentence specifically talks about metrics, analysis, or insights that justify this addition, rather than inferring this from another part of the bullet point.
+
+1.6 Two-Level Verification
+Verification Levels:
+	•	Primary Verification:
+	•	Explicit Evidence Requirement: Confirm that there is clear, explicit evidence in the resume that supports adding the keyword or making any modification.
+	•	Context Verification:
+	•	Aligning Flow and Meaning: Verify that the keyword addition matches the tone, flow, and meaning of the original bullet point without altering its intent.
+	•	The change must feel natural and must not introduce new interpretations that are not grounded in the resume.
+Cross-Reference for Reference Mapping:
+	•	Refer to Section 1.2 (Explicit Reference Mapping) to ensure that each addition is explicitly linked back to resume content, providing full traceability for every modification.
+	•	Refer to KB Examples - Positive Example List for examples of successful two-level verification.
+
+1.7 Rejection of Unsupported Keywords
+Protocol for Rejection:
+	•	If a keyword cannot be added without fabricating or altering original details, it must be rejected.
+	•	Rejections should always be documented clearly in the Verification Log.
+Rejection Example:
+	•	Keyword Rejected: "Cross-functional Collaboration"
+	•	Reason for Rejection: No direct reference to working with other departments or teams in the original resume content.
+	•	Log Entry: “Keyword ‘Cross-functional Collaboration’ rejected due to lack of direct evidence in any part of the resume.”
+Guidance for Handling Rejections:
+	•	All rejections must be logged to maintain a record of why specific keywords could not be integrated.
+	•	Use the Verification Log to keep a systematic track of what was attempted, why it was rejected, and how it impacts alignment with the job description.
+Cross-Reference:
+	•	Refer to KB Examples - Negative Example List for examples of appropriate rejections due to lack of explicit support.
+

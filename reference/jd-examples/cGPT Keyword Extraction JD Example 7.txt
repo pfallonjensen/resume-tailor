@@ -1,0 +1,120 @@
+Overview
+Locations: US Remote, United States of America
+Director, Product Management -Capital One Software (Remote)
+Capital One has been a pioneer through our tech journey as the first large bank to go all in on the public cloud, while operating in a complex and highly regulated business environment.  We have built out a large engineering organization, moved to the cloud, re-architected our applications and data platforms, and embraced machine learning at scale. Our AI/ML capabilities are now at the forefront of what’s possible in banking. (e.g., Capital One Eno).
+We are overcoming key data management challenges in the cloud related to data publishing, data consumption, data governance, and infrastructure management. To realize the full potential of our cloud and data strategy, we built new data management platforms in the cloud and solved new problems across the data ecosystem.
+Our teams have also built and battle tested new capabilities to meet those needs. We’ve open sourced several of the software tools we built (e.g., Cloud Custodian, Hygieia) and forged new partnerships with other digital leaders (e.g., Microsoft, MSFT). 
+Through this journey, we've developed a suite of internal solutions uniquely designed to meet the challenges of a digital-first, cloud-first business at scale.  We also recognize that many other businesses are facing similar data management needs as they accelerate their cloud and data journeys, and are exploring how best to bring some of the tools to market as enterprise B2B software solutions. 
+Capital One Software is seeking a Director ofProduct Management who is passionate about marrying innovation with emerging technologies. As a Capital One Director of Product Management you’ll have the opportunity to be on the forefront of driving a major transformation within Capital One.
+Product Management 
+Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology.
+We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent, and values to succeed as the digital revolution transforms our society and our industry.
+Do you dream of more elegant and intuitive products and customer experiences? Do you want to be the one who introduces change to help tens of millions of customers make smarter financial choices? Do you want to change the way people manage their money? You have to ask yourself...do you feel like making an impact?
+In this role, you’ll be expected to demonstrate proficiency in five key areas:
+	•	Human Centered 
+	•	You’ll lead sourcing and synthesis of customer discovery efforts to understand customer needs to drive the long term vision for your product
+	•	You’ll turn these customer insights into actionable strategies that will define the priorities for your team and rally your stakeholders to your vision
+	•	Business Focused 
+	•	You’ll own and prioritize the long-term (12-18 months) product roadmap to deliver on business outcomes, working closely with a cross-functional team to ensure that all the right resources are aligned to ensure that and your team will be successful
+	•	You’ll define KPIs for your product and will be responsible for measuring and tracking to those measures, with an eye to adjusting and refining your roadmap as the data dictates
+	•	Technology Driven
+	•	You’ll have an end-to-end understanding of your product and how it fits into the larger ecosystem to be able to anticipate impacts from changes in other parts of the business
+	•	You’ll work closely with tech leadership and architecture to understand the tradeoffs of technical decisions and how they impact the ultimately customer experience your team will deliver always looking to ensure you’re using the best tool for the job
+	•	Integrated Problem Solving
+	•	Develop and champion a bold vision that drives meaningful outcomes by embracing the art of the possible
+	•	Build frameworks for complex decision making that enable effective debate and accelerate getting to the right answer
+	•	Transformational Leadership 
+	•	You’ll rally your teams and senior stakeholders to your product vision and proactively leverage relationships throughout the ecosystem to align to your vision and influence prioritization across partner teams
+	•	You’ll be responsible for attracting and retaining top talent to your team and mentoring and developing associates on their product career
+We want you if you are:
+	•	Intellectually Curious. You ask why, you explore, you're not afraid to blurt out your crazy idea or follow an email chain for weeks to find someone with an answer. Comfortable with ambiguity, a hunger to learn and a seeker of new challenges.
+	•	Communicator & Influencer.You can communicate complex ideas clearly regardless of your audience. Our team knows their priorities and why they’re doing what they’re doing. You always can rally associates to work with you.
+	•	Do-er.You’re biased toward action, you try things and sometimes you fail. You can get around roadblocks and stay focused on your goals. You’re well organized, able to multitask and able to prioritize your work.
+	•	Passionate & Customer Focus.You care about growing others and bringing them together around what’s possible. You get a thrill from the journey of building and shipping products, and you have a desire and ability to connect with our external or internal customers to fully understand their needs.
+	•	Learner. You have an appetite to learn new things or new technologies all while exhibiting humbleness when the time comes to ask for help.
+	•	Team Player. You enjoy working with diverse people and driving the team toward a common goal. You have the ability to put the team before yourself and establish long-lasting relationships.
+Basic Qualifications:
+	•	Bachelor’s Degree or military experience
+	•	At least 7 years of experience in digital product management 
+Preferred Qualifications:
+	•	Bachelor’s Degree in Computer Science or Engineering
+	•	MBA or Master’s degree
+	•	5+ years of experience in Agile product management
+	•	5+ years of experience translating business strategy and analysis into consumer facing digital products
+At this time, Capital One will not sponsor a new applicant for employment authorization for this position.
+The minimum and maximum full-time annual salaries for this role are listed below, by location. Please note that this salary information is solely for candidates hired to perform work within one of these locations, and refers to the amount Capital One is willing to pay at the time of this posting. Salaries for part-time roles will be prorated based upon the agreed upon number of hours to be regularly worked.
+Remote (Regardless of Location): $197,500 - $225,400 for Director, Product Management
+Candidates hired to work in other locations will be subject to the pay range associated with that location, and the actual annualized salary amount offered to any candidate at the time of hire will be reflected solely in the candidate’s offer letter.
+This role is also eligible to earn performance based incentive compensation, which may include cash bonus(es) and/or long term incentives (LTI). Incentives could be discretionary or non discretionary depending on the plan.
+Capital One offers a comprehensive, competitive, and inclusive set of health, financial and other benefits that support your total well-being. Learn more at theCapital One Careers website. Eligibility varies based on full or part-time status, exempt or non-exempt status, and management level.
+This role is expected to accept applications for a minimum of 5 business days.
+No agencies please. Capital One is an equal opportunity employer committed to diversity and inclusion in the workplace. All qualified applicants will receive consideration for employment without regard to sex (including pregnancy, childbirth or related medical conditions), race, color, age, national origin, religion, disability, genetic information, marital status, sexual orientation, gender identity, gender reassignment, citizenship, immigration status, protected veteran status, or any other basis prohibited under applicable federal, state or local law. Capital One promotes a drug-free workplace. Capital One will consider for employment qualified applicants with a criminal history in a manner consistent with the requirements of applicable laws regarding criminal background inquiries, including, to the extent applicable, Article 23-A of the New York Correction Law; San Francisco, California Police Code Article 49, Sections 4901-4920; New York City’s Fair Chance Act; Philadelphia’s Fair Criminal Records Screening Act; and other applicable federal, state, and local laws and regulations regarding criminal background inquiries.
+If you have visited our website in search of information on employment opportunities or to apply for a position, and you require an accommodation, please contact Capital One Recruiting at 1-800-304-9102 or via email at RecruitingAccommodation@capitalone.com. All information you provide will be kept confidential and will be used only to the extent required to provide needed reasonable accommodations.
+For technical support or questions about Capital One's recruiting process, please send an email to Careers@capitalone.com
+Capital One does not provide, endorse nor guarantee and is not liable for third-party products, services, educational tools or other information available through this site.
+Capital One Financial is made up of several different entities. Please note that any position posted in Canada is for Capital One Canada, any position posted in the United Kingdom is for Capital One Europe and any position posted in the Philippines is for Capital One Philippines Service Corp. (COPSSC).
+ 
+ 
+ 
+Here's the output from ChatGPT based on the prompt for keyword extraction you've been given:
+ 
+ 
+Key Skills
+	•	Primary:
+	•	Product Management (Digital, Agile)
+	•	Human-Centered Design
+	•	Business Roadmap Ownership
+	•	KPI Definition and Tracking
+	•	Cross-Functional Leadership
+	•	Technical Trade-off Understanding
+	•	Integrated Problem Solving
+	•	Transformational Leadership
+	•	Secondary:
+	•	Customer Discovery
+	•	Synthesis of Insights
+	•	End-to-End Product Understanding
+Cultural/Attitudinal Skills
+	•	Primary:
+	•	Intellectual Curiosity
+	•	Communicator & Influencer
+	•	Team Player
+	•	Passionate & Customer Focus
+	•	Secondary:
+	•	Do-er (Action Oriented)
+	•	Learner
+Tools and Technologies
+	•	Primary:
+	•	Cloud Platforms (e.g., Public Cloud)
+	•	AI/ML Capabilities
+	•	Data Management Platforms
+	•	Secondary:
+	•	Open-Source Tools (e.g., Cloud Custodian, Hygieia)
+Key Responsibilities
+	•	Primary:
+	•	Drive Long-term Product Roadmap (12-18 months)
+	•	Champion Product Vision and Influence Stakeholders
+	•	Attract, Mentor, and Retain Top Talent
+	•	Collaborate Closely with Tech Leadership
+	•	Deliver Business Outcomes and Measure Against KPIs
+	•	Secondary:
+	•	Frame Complex Decision-Making Processes
+	•	Align Partner Teams to Product Vision
+Qualifications
+	•	Primary:
+	•	Bachelor’s Degree or Military Experience
+	•	7+ Years in Digital Product Management
+	•	Secondary:
+	•	Bachelor’s in Computer Science/Engineering
+	•	MBA or Master’s Degree
+	•	5+ Years in Agile Product Management
+	•	Experience in Consumer-Facing Digital Products
+Industry Concepts
+	•	Primary:
+	•	Data Management in Cloud Environments
+	•	Digital-First and Cloud-First Strategies
+	•	AI/ML in Banking
+	•	Secondary:
+	•	Enterprise B2B Software Solutions
+	•	Data Governance and Consumption Management
+ 
+

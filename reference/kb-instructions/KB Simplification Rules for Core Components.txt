@@ -1,0 +1,76 @@
+Knowledge Base Article: Simplification Rules for Core Components
+Rule Set 1: Core Component Rules:
+The core component is the essential term in a keyword phrase that must be retained for compliance with Applicant Tracking Systems (ATS) and for recruiter visibility. The following rules must be followed precisely for every simplification. No deviation is allowed:
+Industry Terms (e.g., "Product-Led Growth"):
+	•	These describe frameworks, methodologies, or strategies critical to the industry.
+	•	Example: Simplify "Agile Methodologies" to "Agile."
+Key Skills (e.g., "Growth"):
+	•	Essential technical or soft skills to perform the role well. Key skills can be related to job functions (e.g., Leadership) or specialized abilities (e.g., Data Analysis).
+	•	Examples: "A/B Testing," "customer research," "SQL."
+Outcomes (e.g., "Acquisition," "Retention"):
+	•	Focus on measurable achievements or goals. These must be retained to reflect the impact a candidate is expected to achieve.
+	•	Examples: "Revenue growth," "Customer satisfaction," "Operational efficiency."
+Functions (e.g., "Roadmap"):
+	•	These are key tasks or responsibilities central to the role. Functions represent what the candidate is expected to do.
+	•	Examples: Simplify "Go-to-Market Strategy" to "Go-to-Market," "Product Lifecycle Management" to "Product Lifecycle."
+Descriptors (e.g., "Data-driven"):
+	•	Qualifiers or adjectives that modify other components to add essential context. These are generally attitudinal in nature. These terms provide context and modify other components like skills or functions.
+	•	Examples: Simplify "Customer-Centric Mindset" to "Customer-Centric," "Data-Driven Decisions" to "Data-Driven."
+ Tools/Technologies (e.g., "CRM," "ERP"):
+	•	Specific software, platforms, or solutions required for the role. Each tool must be kept distinct.
+	•	Examples: Simplify "Customer Relationship Management" to "CRM," but "Networking, Identity Services, ERP" must remain distinct as "Networking," "Identity Services," "ERP."
+Processes/Methodologies (e.g., "Scrum," "Six Sigma"):
+	•	Defined ways of performing work. Keep full phrases only when abbreviations would lose meaning.
+	•	Examples: "Waterfall," "Kanban," "Design Thinking."
+Rule Set 2: General Simplification Rules:
+Follow these steps to extract and simplify phrases to their core components:
+	•	Multiple Core Components: 
+	•	When a phrase contains more than one distinct concept, even if it doesn't use conjunctions like "and," split it into its individual components.
+	•	Example: "Full-Stack Web Application Development" becomes "Full-Stack" and "Web Development."
+	•	Splitting Compound Phrases: 
+	•	When a phrase contains multiple concepts or functions (with or without conjunctions), extract all distinct core components first, then simplify these individually. For example, 'Cross-Functional Teams' should yield both 'Cross-Functional' and 'Team Leadership 
+	•	Functional and Soft Skills: 
+	•	First, simplify to the functional component. Then, add soft skills as secondary components if required.
+	•	Example: Simplify "Cross-functional Leadership" to "Cross-Functional" and "Leadership."
+	•	Preserving Decision-Making Context: 
+	•	Simplify decision-related terms to the qualifier but retain important context.
+	•	Example: Simplify "Data-Driven Decisions" to "Data-Driven."
+	•	Action-Oriented Skills: 
+	•	Reduce generalized skills (e.g., "analytical skills") to specific action terms (e.g., "Analyze"). Focus on key actions relevant to the role (e.g., "Data analysis").
+	•	Management/Experience Terms: 
+	•	Reduce to the core skill or responsibility. Keep full terms only if they are industry standards.
+	•	Example: Simplify "Roadmap Management" to "Roadmap," but keep "Project Management" as is.
+	•	Maintaining Distinct Concepts: 
+	•	Do not combine distinct concepts into one core component if they have different meanings.
+	•	Examples: Keep "Business Acumen" and "Strategy" separate, as well as "Executive Presence" and "Executive Communication."
+
+Rule Set 3: When Core Components Are Sufficient:
+Reduce to just the core term every time it covers the full meaning:
+	•	Examples:
+	•	"Agile" covers "Agile Methodologies"
+	•	"Roadmap" covers "Technology Roadmap"
+	•	"Data-Driven" covers "Data-Driven Decisions"
+Rule Set 4: When Full Phrases Are Needed:
+	•	Retain the full phrase if simplifying causes ambiguity or loss of meaning:
+	•	Examples:
+	•	Certifications or formal processes (e.g., "PMP Certification")
+	•	Industry-specific formal terms (e.g., "Customer Relationship Management")
+Rule Set 5: Edge Case Exception:
+	•	If simplifying risks losing important meaning, keep the full phrase.
+	•	Example: Retain "Project Management" instead of reducing it to "Project" or “Management”.
+	•	When a case comes up that doesn’t fit into the predefined rules, do the following:
+	•	Focus on the Action: Simplify phrases by reducing them to the core action or skill that drives the described tasks. For example, "analyzing data for insights" becomes "Data Analysis".
+	•	Avoid Over-Describing: Look for phrases that are more descriptive than needed, such as "leading cross-functional teams to deliver products", and reduce them to the core skill, which in this case would be Cross-Functional or Leadership.
+	•	Generalize Tools or Specific Methods: Specific tools like SQL or methodologies like A/B Testing can already be considered core components, but more complex phrases around these tools should be simplified to focus on their use (e.g., "extracting data from databases using SQL" → SQL).
+
+Rule Set 6: Examples of Simplifying to Core Components:
+	•	"Customer-Centric Mindset" → Customer-Centric
+	•	"Cross-Functional Teams" → Cross-Functional
+	•	"Data-Driven Decisions" → Data-Driven
+	•	"Technology Roadmap" → Roadmap
+	•	"Networking, Identity Services, CRM, ERP" → “Networking”, “Identity Services”, “CRM”, “ERP” as separate terms
+	•	"Agile Environment" → Agile
+	•	"Technical Expertise" → Technical
+	•	"Operational Leadership" → Leadership
+	•	"Flexibility and Adaptability" → “Flexibility” and “Adaptability”
+

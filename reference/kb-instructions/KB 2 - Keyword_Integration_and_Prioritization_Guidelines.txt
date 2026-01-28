@@ -1,0 +1,90 @@
+KB 2: Keyword Integration and Prioritization Guidelines - Updated Version
+Purpose The purpose of KB 2 is to ensure that keywords are effectively integrated into resume bullet points to enhance ATS (Applicant Tracking System) compatibility while maintaining the readability, accuracy, and impact of the content. This module is focused on using Ranked Missing Keywords to align bullet points more closely with job descriptions, prioritizing primary keywords, and ensuring that changes are explicitly supported by existing resume content, in compliance with KB 1.
+
+Sections:
+2.1 Keyword Ranking and Selection Ranked Keywords:
+	•	Prioritize Primary Keywords: These are crucial for aligning with the core requirements of the job description. They should be integrated first to maximize the relevance of the resume.
+	•	Secondary Keywords: Integrate secondary keywords only if they add significant value and do not exceed character limits. They can help enhance the resume’s alignment with the job description but are not as critical as primary keywords.
+Conflict Handling:
+	•	If multiple primary or secondary keywords cannot be integrated due to character limits, prioritize keywords that:
+	•	Align Most Closely with Job Requirements: Consider which keywords are most frequently mentioned or are critical to the job description.
+	•	Provide Specific Metrics or Quantifiable Impact: Keywords that enhance the specificity and value of bullet points should be prioritized.
+	•	Require Minimal Disruption: Select keywords that can be integrated without major modifications to existing content.
+Cross-Reference:
+	•	Always ensure that any keyword selected for integration is supported by explicit content within the resume. Reference KB 1 - Section 1.1 for guidelines on avoiding unsupported additions.
+	•	Refer to KB Examples - Negative Example List for examples of improper keyword inclusion.
+
+2.2 Placement Evaluation and Multiple Integration Options
+Evaluating Placement Options:
+	•	Identify at Least Two Possible Placements: Review all possible bullet points where a keyword can be integrated. Consider its relevance, potential impact, and how naturally it fits into the sentence or bullet point.
+	•	Prioritize Minimal Disruption: Choose placements that:
+	•	Cause the Least Disruption: Aim to add the keyword without disrupting the flow or changing the core message.
+	•	Enhance Original Context: Provide additional context or specify outcomes that are implied but not explicitly mentioned.
+	•	Retain Core Metrics: Metrics, such as achievements or specific outcomes, should not be replaced or sacrificed when adding a keyword.
+Cross-Reference with KB 1:
+	•	Ensure that every placement option adheres to anti-hallucination guidelines. Specifically, reference KB 1 - Section 1.5 on applying keywords at the sentence level to maintain explicit support for each addition.
+	•	Refer to KB Examples - Gray Area Example List for nuanced keyword placement decisions.
+Integrating in Multiple Locations:
+	•	ATS Visibility: If a keyword can naturally fit into multiple bullet points, consider integrating it in more than one location to enhance ATS detection.
+	•	Avoid Redundancy: Ensure repeated keywords provide unique context or add distinct value each time they are used. Avoid mere repetition, which could weaken the overall impact.
+Verification:
+	•	Reference KB 1 - Section 1.6 on conducting both Primary Verification and Context Verification to confirm that each integration does not introduce false or misleading information.
+	•	Refer to KB Examples - Positive Example List for effective multiple placement integrations.
+
+2.3 Minimal Change Approach
+Minimal Edits:
+	•	Integrate with Few Changes: Make modifications that require minimal editing, maintaining the original tone and flow of the bullet point.
+	•	Implicit Coverage: If a keyword is already covered implicitly, prioritize making it explicit, but avoid unnecessary repetition.
+Examples of Minimal Changes:
+	•	Before: "Led high-velocity experimentation to increase engagement by 30%."
+	•	After: "Led high-velocity experimentation to increase engagement by 30%, contributing to product-led growth."
+Cross-Reference:
+	•	Always ensure that modifications do not result in unsupported information being introduced. Reference KB 1 - Section 1.3 on avoiding assumptions from job descriptions to ensure all content is grounded in the resume.
+	•	Refer to KB Examples - Negative Example List for examples of minimal changes that resulted in unsupported details.
+
+2.4 Keyword Conflict Resolution
+Scenario Analysis:
+	•	Handling Conflicting Keywords: If two or more keywords cannot be integrated due to character limits, evaluate based on:
+	•	Alignment with Primary Role Requirements: Consider which keyword has the strongest alignment with the job's key responsibilities.
+	•	Specificity and Impact: Opt for keywords that add the most specificity, such as metrics, technologies used, or methodologies that are directly relevant to the job.
+	•	Minimal Disruption: Integrate the keyword that requires the least modification to the original bullet point.
+Conflict Resolution Example:
+	•	Original Keywords: "Data Analysis," "Product Strategy."
+	•	Before Modification: "Developed a product strategy for new features."
+	•	After: "Developed a product strategy that included data analysis, enhancing user engagement metrics."
+	•	Explanation: "Data Analysis" was prioritized because it adds specificity and quantifiable value, enhancing the bullet’s relevance.
+Cross-Reference:
+	•	Consult KB 1 - Section 1.7 for guidelines on rejecting unsupported keywords when conflicts arise, ensuring that decisions are documented in the Verification Log.
+	•	Refer to KB Examples - Positive Example List for examples of optimal keyword conflict resolution.
+
+2.5 Log and Document Keyword Integration
+Logging Changes:
+	•	Document Each Addition: Maintain a detailed log for each keyword added, including:
+	•	Keyword Added: Specify whether it is a primary or secondary keyword.
+	•	Original Bullet Point: Copy the exact bullet point in its original form.
+	•	Modified Version: Provide the new version of the bullet point after modification.
+	•	Change Description: Clearly specify what was added, removed, or rephrased.
+	•	Conflict Handling: If a conflict arose, explain how it was resolved and the rationale for prioritizing one keyword over another.
+	•	Character Length Compliance: Verify that the updated bullet point falls within the character limits defined in KB 3A.
+Example Verification Log Entry:
+	•	Original Bullet Point: "Led 11 new 0-1 product launches and 8 strategic pivots, scaling product lines to triple-digit gains in acquisition, engagement, retention, and revenue."
+	•	Keyword Added: "Product Market Fit"
+	•	Modified Version: "Led 11 new 0-1 product launches and 8 strategic pivots, contributing to product market fit and scaling product lines to triple-digit gains in acquisition, engagement, retention, and revenue."
+	•	Change Description: Added the phrase "contributing to product market fit."
+	•	Context Match Confirmation: Confirmed that the addition aligns with the focus on market positioning and growth metrics.
+	•	Character Length Compliance: Modified bullet point is 210 characters.
+Cross-Reference:
+	•	Refer to KB Examples - Positive Example List for examples of properly logged modifications.
+	•	Refer to KB Examples - Negative Example List for improper keyword logging and integration attempts that led to rejection.
+
+2.6 Cross-Reference to Anti-Hallucination Clause
+Ensuring No Hallucinations:
+	•	When integrating keywords, always refer to KB 1 to ensure modifications are supported by direct evidence in the resume.
+	•	Reference the following specific sections in KB 1:
+	•	Section 1.1: Direct Evidence Only to avoid adding unsupported details.
+	•	Section 1.2: Explicit Reference Mapping for tracing each keyword addition back to original content.
+	•	Section 1.5: Sentence-Level Application to prevent partial inferences or unsupported relationships between sentences.
+	•	Section 1.6: Two-Level Verification for validating both explicit evidence and maintaining the original context and flow.
+Cross-Reference:
+	•	Refer to KB Examples - Gray Area Example List for scenarios that require careful verification to avoid hallucinations.
+

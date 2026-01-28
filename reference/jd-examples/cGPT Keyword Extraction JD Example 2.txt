@@ -1,0 +1,111 @@
+Group Product Manager, Institutional Financing
+Back to All Jobs
+At Coinbase, our mission is to increase economic freedom around the world, and we couldn’t do this without hiring the best people. We’re a group of hard-working overachievers who are deeply focused on building the future of finance and Web3 for our users across the globe, whether they’re trading, storing, staking or using crypto. Know those people who always lead the group project? That’s us.
+There are a few things we look for across all hires we make at Coinbase, regardless of role or team. First, we look for candidates who will thrive in a culture like ours, where we default to trust, embrace feedback, and disrupt ourselves. Second, we expect all employees to commit to our mission-focused approach to our work. Most importantly, we seek people who are excited about crypto, because those are the folks who enjoy the intense moments in our sprint and recharge work culture. We’re a remote-first company looking to hire the absolute best talent all over the world.
+Who you are:
+	•	You’ve got positive energy. You’re optimistic about the future and determined to get there. 
+	•	You’re never tired of learning. You want to be a pro in bleeding edge tech like DeFi, NFTs, DAOs, and Web 3.0. 
+	•	You appreciate direct communication. You’re both an active communicator and an eager listener - because let’s face it, you can’t have one without the other. You’re cool with candid feedback and see every setback as an opportunity to grow.
+	•	You can pivot on the fly. Crypto is constantly evolving, so our priorities do, too. What you worked on last month may not be what you work on today, and that excites you. You’re not looking for a boring job.
+	•	You have a “can do” attitude. Our teams create high-quality work on quick timelines. Owning a problem doesn’t scare you, but rather empowers you to take 100% responsibility for achieving our mission.
+	•	You want to be part of a winning team. We’re stronger together, and you’re a person who embraces being pushed out of your comfort zone.
+Our vision is to bring more innovation, efficiency, and equality of opportunity to the world by building an open financial system. Our first step on that journey is making digital currency accessible and approachable for everyone. Two principles guide our efforts. First, be the most trusted company in our domain. Second, create user-focused products that are easier and more delightful to use.
+The Institutional product team is building a fully scaled markets business that serves the largest institutions (Investment Managers, Corporates, Hedge Funds, Marketmakers, Pensions etc.) in the world by providing the most highly-featured, capital efficient, robust platform across all “verbs” (buy, sell, store, lend, borrow, earn etc.) 
+Access to financing is a key requirement for all these customers, and we believe that providing products to meet this need in a first-class, rigorously risk-controlled, institutional-grade way is a huge opportunity for Coinbase and the crypto economy overall.     Solving for this the Institutional Financing + USDC team is building a full-service prime brokerage business for crypto assets that provides holistic financing solutions, integrated with custody and execution services, delivered via a scalable, trusted, compliant platform.
+What you’ll be doing
+We are looking for an experienced product manager to lead a significant part of the Financing product range.  This will include operating and iterating on successful existing customer-facing products such as Agency Lending, which we believe will become a category-defining product in crypto, as well as developing and building totally new ones.  
+As the owner of all Supply products on the Institutional Financing + USDC team you’ll own the products, systems and capabilities that customers use to “earn” on their crypto, those that we use to source assets and funding, and those that ensure the right assets get to the right place at the right time at the right price to facilitate the investment journeys of Coinbase institutional customers globally.  Your success will positively impact the investment strategies and returns of hundreds of institutional clients, and by improving the breadth, depth, and cost of financing in crypto you will have a material positive impact on the development of the digital asset ecosystem overall.
+You will:
+	•	Identify market opportunities and competition, build business cases and determine product and business strategy
+	•	Manage the entire product life cycle from planning to execution on a mix of already-roadmapped and wholly-new products and features
+	•	Collaborate with Engineering, Design and other cross-functional teams to develop product concepts, document requirements and user journeys, and ultimately to quarterback the rapid delivery of new capabilities and features to customers
+	•	Define and analyze metrics to guide product operation,  business development and risk management
+	•	Align teams around  a shared product vision and steer execution across multiple quarters 
+	•	Communicate progress on initiatives and KPIs to cross-functional partners and executive leadership
+	•	 Relentlessly focus on proactively measuring, mitigating and managing risk in all its forms
+What we look for in you
+	•	5+ years of product management or product development experience - or significant relevant domain expertise and a passion for learning new skills
+	•	Exceptional interpersonal communication, relationship management and organizational skills
+	•	Deep analytical, prioritization and problem solving abilities, and the ability to work effectively with incomplete or ambiguous information
+	•	Experience shipping new and iterating on successful products at scale
+	•	Demonstrated product leadership, including evidence of the ability to guide product strategy and create alignment with senior engineers, designers, and cross-functional partners
+	•	Demonstrated passion for cryptocurrency, financial markets, and the Coinbase mission
+	•	An entrepreneurial mindset with the ability to work independently, and the drive to break down barriers and make things happen
+Nice to haves
+	•	Domain expertise or practical experience in Agency Lending, Securities Lending, Prime Brokerage, or Financing Trading in a financial services environment 
+	•	Experience building for or working with Institutional clients, ideally in financing, repo  or funding  products 
+P59930
+Pay Transparency Notice: Depending on your work location, the target annual salary for this position can range as detailed below. Full time offers from Coinbase also include target bonus + target equity + benefits (including medical, dental, vision and 401(k)).
+Pay Range:
+$236,725—$278,500 USD
+Commitment to Equal Opportunity
+Coinbase is committed to diversity in its workforce and is proud to be an Equal Opportunity Employer.  All qualified applicants will receive consideration for employment without regard to race, color, religion, creed, gender, national origin, age, disability, veteran status, sex, gender expression or identity, sexual orientation or any other basis protected by applicable law. Coinbase will also consider for employment qualified applicants with criminal histories in a manner consistent with applicable federal, state and local law.  For US applicants, you may view the Know Your Rights notice here.  Additionally, Coinbase participates in the E-Verify program in certain locations, as required by law. 
+Coinbase is also committed to providing reasonable accommodations to individuals with disabilities. If you need a reasonable accommodation because of a disability for any part of the employment process, please contact us at accommodations[at]coinbase.com to let us know the nature of your request and your contact information.  For quick access to screen reading technology compatible with this site click here to download a free compatible screen reader (free step by step tutorial can be found here).
+Global Data Privacy Notice for Job Candidates and Applicants
+Depending on your location, the General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA) may regulate the way we manage the data of job applicants. Our full notice outlining how data will be processed as part of the application procedure for applicable locations is available here. By submitting your application, you are agreeing to our use and processing of your data as required. For US applicants only, by submitting your application you are agreeing to arbitration of disputes as outlined here.    
+ 
+Here's the output from ChatGPT based on the prompt for keyword extraction you've been given:
+ 
+ 
+Key Skills
+Primary:
+	•	Product Management (including strategy, lifecycle management)
+	•	Business Strategy (identify market opportunities, build business cases)
+	•	Risk Management (proactively measuring, mitigating, managing risks)
+	•	Leadership (guiding strategy, aligning teams, product ownership)
+	•	Communication (cross-functional collaboration, executive communication)
+	•	Analytical Skills (prioritization, problem-solving, incomplete/ambiguous data)
+Secondary:
+	•	Relationship Management (exceptional interpersonal communication)
+	•	Independent Work (entrepreneurial mindset, self-driven)
+Industry Concepts
+Primary:
+	•	Institutional Financing
+	•	Prime Brokerage
+	•	Agency Lending
+	•	Securities Lending
+	•	Digital Asset Ecosystem
+	•	Cryptocurrency
+	•	Financial Markets
+	•	Financing Trading
+Secondary:
+	•	Repo and Funding Products
+	•	Institutional Clients
+Key Responsibilities
+Primary:
+	•	Lead Financing Product Range (ownership of Supply products)
+	•	Product Lifecycle Management (planning to execution, roadmap)
+	•	Cross-functional Collaboration (Engineering, Design, other teams)
+	•	Identify Market Opportunities and Build Business Cases
+	•	Define and Analyze Metrics (product operation, business development)
+	•	Steer Execution Across Multiple Quarters
+Secondary:
+	•	Document Requirements and User Journeys
+	•	Measure, Mitigate, and Manage Risks
+Tools and Technologies
+Primary:
+	•	Risk-Control Systems (tools for measuring, mitigating risks)
+Secondary:
+	•	Custody and Execution Services
+Cultural/Attitudinal Skills
+Primary:
+	•	Adaptability (pivot on the fly, embrace change)
+	•	Positive Energy and Optimism
+	•	Learning and Growth Mindset
+	•	“Can Do” Attitude (taking ownership of problems)
+	•	Team Collaboration (winning team mentality)
+Secondary:
+	•	Direct Communication (active communicator, eager listener)
+	•	Resilience (comfortable with candid feedback, setbacks as opportunities)
+Qualifications
+Primary:
+	•	5+ Years of Product Management or Product Development Experience
+	•	Demonstrated Product Leadership (guiding product strategy, alignment)
+	•	Experience Shipping Products at Scale
+	•	Passion for Cryptocurrency, Financial Markets
+Secondary:
+	•	Experience in Agency Lending, Prime Brokerage, Financing in Financial Services
+	•	Experience with Institutional Clients (financing, repo, funding products)
+	•	Entrepreneurial Mindset
+ 
+

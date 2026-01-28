@@ -1,0 +1,126 @@
+Our Company
+ 
+Changing the world through digital experiences is what Adobe’s all about. We give everyone—from emerging artists to global brands—everything they need to design and deliver exceptional digital experiences! We’re passionate about empowering people to create beautiful and powerful images, videos, and apps, and transform how companies interact with customers across every screen. 
+ 
+We’re on a mission to hire the very best and are committed to creating exceptional employee experiences where everyone is respected and has access to equal opportunity. We realize that new ideas can come from everywhere in the organization, and we know the next big idea could be yours!
+ 
+ 
+The Opportunity 
+We are the market leader in software products and services for the creative & marketing ecosystem with Creative Cloud, Document Cloud, Express, Firefly and Experience Cloud.   
+ 
+Firefly is a new product, service, and family of creative generative AI models coming to Adobe products that offers a new way to ideate, create, and scale content. It’s a natural, exponential extension of the technology that Adobe has created over the past 40 years. 
+ 
+Adobe has made industry-leading progress in addressing the enterprise need for new, scalable ways to create ideas and assets with genAI-infused workflows and products. Adobe Digital Media’s recent launch of genAI-powered products for enterprises including: Firefly Services (APIs), Firefly Custom Models, Object Composites, Style Kits and unique AI features within flagship products like Adobe Photoshop, Express and Illustrator. 
+ 
+We are hiring a Principal Product Manager to “see around the corner” to identify delightful Enterprise generative and creative products and have a founder mindset to scale those products from 0-to-1. You will own the strategy, development, implementation, and growth of new #CreativeEnterprise and #FireflyGenAI products and services.  
+ 
+The ideal candidate is a seasoned enterprise product management leader with experience building AI-powered, enterprise-ready products. They excel at strategy. They understand how to delight creative teams, and are mission-driven to empower them to be more efficient and effective. They love 0-1-100,000. They intuitively understand how to blend AI science and classic software technologies to deliver real value. They are a systems thinker, and a builder at heart. They foster a fun, fast, inclusive, collaborative, empathetic, candid culture with their cross-functional partners. 
+ 
+What you’ll do 
+	•	Prioritize a customer-oriented product strategy and roadmap, based on customer needs, business goals, and technical feasibility. 
+	•	Partner directly with customers to deeply understand their needs. Iteratively design and build solutions. Scale the result to drive results for your customers and business.   
+	•	Conduct market segment research and landscape analysis to inform your requirements. Stay up to date with new technologies and approaches that can improve your product portfolio. 
+	•	Collaborate with cross-functional partners to design, deliver, and scale high-quality products, fast. 
+	•	Define product requirements and key performance indicators to evaluate success. 
+	•	Spot risks, find opportunities, understand competitive landscapes and emerging trends, articulate implications, translate insight into pragmatic, fast-cycle action. 
+	•	Continuously learn and confirm/adjust decision-making using data-driven insights. 
+	•	Present to Digital Media and Adobe leadership on new innovations, progress, landscapes. 
+What you will need to succeed 
+	•	Bachelor's degree in computer science, engineering, or equivalent experience. 
+	•	10+ years of demonstrated success as a product management leader with experience in AI & enterprise.  
+	•	Creative workflows, API/developer business, former engineer, preferred. 
+	•	Deep customer empathy, and unbounded curiosity.  
+	•	Strong communication and collaboration skills, across functional and organizational boundaries. 
+	•	Strong organizational skills, with the ability to manage multiple projects simultaneously and prioritize effectively. 
+	•	Excellent “connector” of people, ideas, activity. 
+	•	Outstanding analytic, problem-solving and communication skills. 
+	•	Ability to context switch across products, projects, and customers. 
+	•	Ability to working autonomously, manage through influence and deliver on-time with quality. 
+Our compensation reflects the cost of labor across several  U.S. geographic markets, and we pay differently based on those defined markets. The U.S. pay range for this position is $146,800 -- $262,100 annually. Pay within this range varies by work location and may also depend on job-related knowledge, skills, and experience. Your recruiter can share more about the specific salary range for the job location during the hiring process.
+At Adobe, for sales roles starting salaries are expressed as total target compensation (TTC = base + commission), and short-term incentives are in the form of sales commission plans.  Non-sales roles starting salaries are expressed as base salary and short-term incentives are in the form of the Annual Incentive Plan (AIP).
+In addition, certain roles may be eligible for long-term incentives in the form of a new hire equity award.
+Adobe will consider qualified applicants with arrest or conviction records for employment in accordance with state and local laws and “fair chance” ordinances.
+Adobe is proud to be an Equal Employment Opportunity and affirmative action employer. We do not discriminate based on gender, race or color, ethnicity or national origin, age, disability, religion, sexual orientation, gender identity or expression, veteran status, or any other applicable characteristics protected by law. Learn more.
+ 
+Adobe aims to make Adobe.com accessible to any and all users. If you have a disability or special need that requires accommodation to navigate our website or complete the application process, email accommodations@adobe.com or call (408) 536-3015.
+Adobe values a free and open marketplace for all employees and has policies in place to ensure that we do not enter into illegal agreements with other companies to not recruit or hire each other’s employees.
+ 
+ 
+ 
+Here's the output from ChatGPT based on the prompt for keyword extraction you've been given:
+ 
+Key Skills:
+Primary:
+	•	Product Management Leader
+	•	AI-powered, enterprise-ready products
+	•	Product Strategy
+	•	Customer-oriented
+	•	Deep Customer Empathy
+	•	Collaboration Skills
+	•	Cross-functional Partnership
+	•	Communication Skills
+	•	Data-driven Decision Making
+	•	Market Segment Research
+	•	Strategy Development
+Secondary:
+	•	Organizational Skills
+	•	Problem-solving
+	•	Analytical Skills
+	•	Builder Mindset
+	•	Iterative Design
+	•	Presentation Skills
+Industry Concepts:
+Primary:
+	•	Generative AI (Firefly)
+	•	Creative & Marketing Ecosystem
+	•	Enterprise Generative and Creative Products
+	•	API/Developer Business
+	•	Creative Workflows
+	•	Systems Thinking
+Secondary:
+	•	GenAI-infused Workflows
+	•	0-to-1 Product Scaling
+	•	Competitive Landscape Analysis
+	•	Emerging Trends
+Key Responsibilities:
+Primary:
+	•	Own Strategy, Development, and Implementation of Products
+	•	Prioritize Product Strategy and Roadmap
+	•	Conduct Market Research and Landscape Analysis
+	•	Collaborate with Cross-functional Teams
+	•	Define Product Requirements and KPIs
+	•	Partner with Customers to Build and Scale Solutions
+Secondary:
+	•	Present Innovations to Leadership
+	•	Spot Risks and Find Opportunities
+	•	Manage Multiple Projects Simultaneously
+	•	Context Switch Across Products and Projects
+Tools and Technologies:
+Primary:
+	•	Generative AI Models
+	•	APIs
+	•	AI Science
+	•	Adobe Products (Photoshop, Express, Illustrator, Firefly)
+Secondary:
+	•	Software Technologies
+Cultural/Attitudinal Skills:
+Primary:
+	•	Founder Mindset
+	•	Mission-driven
+	•	Systems Thinker
+	•	Fast, Inclusive, Collaborative, Empathetic Culture
+	•	Fun, Candid Work Environment
+	•	Unbounded Curiosity
+Secondary:
+	•	Ability to Work Autonomously
+	•	Manage Through Influence
+Qualifications:
+Primary:
+	•	10+ Years of Product Management Experience
+	•	Experience with AI and Enterprise Products
+	•	Bachelor's Degree in Computer Science, Engineering, or Equivalent
+Secondary:
+	•	Former Engineer Preferred
+This categorization ensures a focus on the most critical aspects of the role. To match at least 60% of the primary keywords in a resume, it is crucial to address the Key Skills, Industry Concepts, and Key Responsibilities most emphasized in the job description, particularly those linked to AI, enterprise product management, strategy, and collaboration.
+ 
+

@@ -1,0 +1,67 @@
+Fallon Jensen
+805.315.1362 | pfallonjensen@gmail.com | www.linkedin.com/in/fallonjensen | Nashville, TN
+{Title of Role from JD} | 14 years turning complexity into step-change growth: 
+By bridging strategic vision and hands-on execution, I empower my teams to consistently achieve triple-digit growth in activation, retention, and revenue. I excel in finding product-market fit through customer discovery and pilot programs, and then scaling those products with customer-centric growth and lean go-to-market strategies. Rooted in radical candor and servant-leadership, my background in strategic leadership, inclusive team management, and data-driven decision-making makes me an excellent fit to lead Modern Health's product organization to provide accessible, engaging mental health care globally.
+CAREER HIGHLIGHTS
+	•	Strategy & Product Leadership: Led 11 new 0-1 product launches and 8 strategic pivots, scaling product lines to triple-digit gains in acquisition, engagement, retention, and revenue, resulting in 10x growth and $100M+ in revenue.
+	•	Cross-Functional & Team Management: 7 years managing teams up to 12 reports and leading cross-functional teams of 70.  
+	•	AI/ML & Data-Driven Innovation: Led productization of 12 ML models to generate $40M ARR. Consulted on applying LLM and conversational AI in enterprises. At Noom, used clinical, UX, and research insights to raise acquisition 122% and ARR 47%.
+	•	Agile & Technical Expertise: Improved development processes by 36% to 364% across 24+ teams. Mentored product managers, designers, and engineers to deliver scalable SaaS and AI/ML products through modern practices. 
+SKILLS
+Product Strategy ● Growth Strategy ● Radical Candor ● Servant Leadership ● Coaching, Mentorship & Talent Development 
+B2B & B2C SaaS ● Strategic Roadmapping ● Zero-to-One ● Design Thinking ● Customer Discovery & Pilots ● Product Market Fit 
+Go-To-Market ● Data-Driven Decision Making ● A/B Testing ● Lean ● Agile ● JTBD Frameworks ● AI/ML ● Innovation ● Storytelling 
+PROFESSIONAL EXPERIENCE
+Director of Product Strategy	Nov 2022 – Jun 2024
+Code and Theory Agency	Remote
+Led product strategy and operational growth for Fortune 500 clients.
+	•	Generated $23M+ in revenue by leading 7 PMs across 20+ pitches and high-profile projects to operationalize growth, including UnderArmour and WeTransfer’s conversion optimizations and redesigns. 
+	•	Spearheaded GenAI product strategy to enhance product discovery and customer support for e-comm and fintech clients.
+	•	Cut RFP response time by 45% and won $10M+ in new business by developing custom GPTs to synthesize research and refine copy. Applied n-shot learning, nucleus sampling, and frequency/presence penalties in a human-in-the-loop system.
+
+Director of Product Growth	May 2022 – Oct 2022
+Noom 	Remote
+Accelerated B2C mental wellness product growth by directing high velocity experimentation and research.
+	•	Led high-velocity experimentation, boosting trials by 122% and ARR by 47% within 3 months, leveraging a mix of A/B testing and simulated ML techniques to optimize testing velocity despite heavy constraints on user traffic. 
+	•	Improved retention by 60%, gross margin by 29%, and signups by 24% within 6 months by implementing a personalized pricing and modular packaging strategy, tailored to boost CLTV and long-term engagement.
+
+Founder, Principal	Jul 2018 – May 2022
+ProdUX Growth Consulting	San Francisco, CA
+Fractional executive specializing in 0-1 builds, B2B growth, & product market fit for emerging tech in web3, AI, and fintech.
+	•	Developed go-to-market strategy for a conversational AI client, refining the Serviceable Obtainable Market (SOM) to boost B2B adoption, activation, and retention. Reduced friction in NLU/Dialog paths for smoother customer interactions.
+	•	Directed a strategic pivot from B2C to B2B2C for a web3 data marketplace, achieving profitability in under 12 months. 
+This pivot accelerated the revenue forecast by 3 years by focusing on W3C verifiable credentials on Ethereum’s network.
+	•	Grew userbase 0-1400 B2B customers for fintech startup, achieving 98% 12-month retention, 28% conversion to paid, and increased ARR by 70% through customer discovery and iterative experimentation on packaging and go-to-market strategy.
+	•	Redesigned and modularized a Membership SaaS offering, expanding TAM and driving a 37% ARPU increase in 6 months. Launched an in-app discovery module to improve onboarding, boosting click-through rates by 2400%.
+
+Staff Product Manager	Feb 2017 – Feb 2020
+LogMeIn	San Francisco, CA
+Led growth strategy for a $600M business unit, driving 0-1 AI/ML innovation across 5 roadmaps and 3 products.
+	•	Drove $59M in revenue by productizing 8 ML models in NLP, Computer Vision, and Recommenders.
+	•	Improved time to value by 520%, retention by 24%, and engagement by 300% by applying design thinking to reimagine GoToWebinar’s self-service analytics as a single-page app (SPA), enabling real-time data analysis and solving key pain points
+	•	Championed GDPR compliance across 6 product lines and saved $9M in ARR by improving data management for customers.
+
+Senior Product Manager	Sep 2014 – Feb 2017
+Citrix Systems 	Santa Barbara, CA
+Led product and growth strategy for mobile, tablets, and wearables in $350M video conferencing product, GoToMeeting.
+	•	Increased MAU 86% to 560k in 18 months by redesigning app and onboarding to focus on joining a meeting in 3 taps or less.
+	•	Drove 24+ pt increase in tNPS, leading G2M to be the highest-rated app among WebEx, Teams, and Zoom.
+	•	Improved release velocity for 5 dev teams by 60% up to 342% and reduced tech debt through Lean/Agile methods.
+	•	Revived a $34M GoToMeeting project by securing executive buy-in and galvanizing team of 40+ with strategic pivots in product vision, architecture, and go-to-market strategy, saving $8M+ in recent investment and a 20% increase in beta DAU.
+
+Product Manager	Jul 2012 – Sep 2014
+Verio	Boca Raton, FL
+Promoted to lead team of 5 to pivot business and product portfolio strategy in $100M company.
+	•	Led pivot from hosting to a higher-value B2B SaaS marketplace, preventing bankruptcy and enabling a $36M acquisition. 
+	•	Secured 22 SaaS partnerships, increasing gross margin by 42% and reducing integration fees by 73%. 
+	•	Rebuilt product marketing team post-70% RIF to lead go-to-market for pricing, positioning, segmentation, and enablement.
+
+Product Management Lead	Aug 2010 – May 2012
+On Demand Software 	Remote
+Led a team of three to define MVPs and execute go-to-market strategies for B2B and B2B2C SaaS products.
+	•	Led a team of 3 in research, prioritization, and go-to-market strategy for 3 SaaS products. Defined MVP through qualitative studies and A/B tests, launching a B2C product across web, iOS, and Android, growing the user base from 0 to 300.
+
+EDUCATION
+Pragmatic Marketing Certified Level 4 (PMC-IV)
+Brigham Young University, Bachelor of Arts in Economics
+
