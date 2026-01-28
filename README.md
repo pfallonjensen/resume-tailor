@@ -21,17 +21,23 @@ The key innovation: **every word in a proposed edit must exist in your bullet co
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/YOUR_USERNAME/resume-tailor.git
+git clone https://github.com/pfallonjensen/resume-tailor.git
 
-# 2. Set up your profile (see SETUP.md)
+# 2. Look at the example user for reference
+cat users/fallon-jensen/profile.md
+cat users/fallon-jensen/bullet-corpus.txt
+
+# 3. Set up your profile
 cp -r users/_template users/your-name
 
-# 3. Install the skill in Claude Code
+# 4. Fill in your data (corpus, resume, profile)
+# See SETUP.md for detailed instructions
+
+# 5. Install the skill in Claude Code
+mkdir -p ~/.claude/skills/resume-tailor
 cp skill/* ~/.claude/skills/resume-tailor/
 
-# 4. Fill in your data (corpus, resume, profile)
-
-# 5. Run the skill
+# 6. Run the skill
 /resume-tailor
 ```
 
@@ -44,10 +50,16 @@ resume-tailor/
 ├── CONTRIBUTING.md     # How to improve the skill
 │
 ├── users/              # User profiles and data
-│   └── _template/      # Copy this to create your profile
+│   ├── _template/      # Copy this to create your profile
+│   │   ├── profile.md
+│   │   ├── bullet-corpus.txt
+│   │   └── current-resume.txt
+│   │
+│   └── fallon-jensen/  # Example user (reference)
 │       ├── profile.md
-│       ├── bullet-corpus.txt
-│       └── current-resume.txt
+│       ├── bullet-corpus.txt  # 380+ bullet variations
+│       ├── current-resume.txt
+│       └── job-applications/
 │
 ├── skill/              # The skill code
 │   ├── README.md       # Technical documentation
