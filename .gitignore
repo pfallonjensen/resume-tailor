@@ -1,13 +1,15 @@
 # Personal data - each user keeps locally, never committed
+# Exclude all user data EXCEPT the _template folder
 users/*/bullet-corpus.txt
 users/*/current-resume.*
 users/*/profile.md
 users/*/job-applications/
 
-# Keep the template files
+# But keep everything in _template
 !users/_template/
+!users/_template/**
 
-# User resume docs (keep reference docs)
+# User resume docs
 users/*/*.docx
 
 # System files
