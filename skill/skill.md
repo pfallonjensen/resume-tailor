@@ -8,26 +8,27 @@ description: Tailor resume bullets to job descriptions without hallucinating. Us
 Tailors your resume to specific job descriptions by:
 1. Extracting keywords from the JD (Python)
 2. Finding gaps between JD keywords and your resume (Python)
-3. Proposing minimal bullet edits to incorporate missing keywords (Claude)
+3. Proposing edits to summary, highlights, and experience sections (Claude)
 4. Validating edits against your bullet corpus to prevent hallucination (Python)
 
 ## File Locations
 
-**IMPORTANT**: Update these paths to match your installation.
+Default user: `fallon-jensen` (change via `--profile` flag)
 
 | File | Path |
 |------|------|
-| **User Folder** | `<YOUR_PATH>/users/<your-name>/` |
-| **Corpus** | `<YOUR_PATH>/users/<your-name>/bullet-corpus.txt` |
-| **Resume** | `<YOUR_PATH>/users/<your-name>/current-resume.txt` |
-| **Profile** | `<YOUR_PATH>/users/<your-name>/profile.md` |
-| **JDs** | `<YOUR_PATH>/users/<your-name>/job-applications/` |
-| **Script** | `<YOUR_PATH>/skill/resume-tailor.py` |
+| **User Folder** | `Career/users/fallon-jensen/` |
+| **Corpus** | `Career/users/fallon-jensen/bullet-corpus.txt` |
+| **Resume** | `Career/users/fallon-jensen/current-resume.txt` |
+| **Profile** | `Career/users/fallon-jensen/profile.md` |
+| **JDs** | `Career/users/fallon-jensen/job-applications/` |
+| **Script** | `Career/skill/resume-tailor.py` |
+| **Reference** | `Career/reference/` (original instruction sets) |
 | **Scratchpad** | Use the session scratchpad for intermediate JSON files |
 
 ## Profile System
 
-Each user has their own folder under `users/` containing:
+Each user has their own folder under `Career/users/` containing:
 - `profile.md` - Tone, style, and positioning guidance
 - `bullet-corpus.txt` - Ground truth for anti-hallucination
 - `current-resume.txt` - Baseline resume to tailor
@@ -42,23 +43,56 @@ Each user has their own folder under `users/` containing:
 - Verified metrics with sources
 
 **When proposing edits, Claude should:**
-1. Read the active profile
+1. Read the active profile (default: `users/fallon-jensen/profile.md`)
 2. Apply tone preferences to proposed wording
 3. Check anti-patterns list before suggesting phrases
 4. Reference verified metrics table when possible
 
 **To use a different profile:**
 ```
-/resume-tailor --profile other-name
+/resume-tailor --profile scott-smith
 ```
-This loads `users/other-name/` files instead of the default.
+This loads `Career/users/scott-smith/` files instead of the default.
 
 **To create a new profile:**
-1. Copy `users/_template/` to `users/[name]/`
+1. Copy `Career/users/_template/` to `Career/users/[name]/`
 2. Fill in `profile.md` with preferences
 3. Build `bullet-corpus.txt` with all bullet variations
 4. Add `current-resume.txt` (plain text)
-5. See `SETUP.md` for detailed instructions
+5. See `Career/SETUP.md` for detailed instructions
+
+## Resume Sections
+
+The skill parses resumes into three sections, each with its own character limits and keyword placement strategy:
+
+### Section Types
+
+| Section | Character Limits | Parsing |
+|---------|------------------|---------|
+| **Summary Tagline** | 60-100 chars | First content line with `\|` separator |
+| **Summary Body** | 300-500 chars | Paragraph after tagline |
+| **Career Highlights** | 150-250 chars each | Bulleted items with `Label:` format |
+| **Experience Bullets** | 80-116 (1-line), 175-235 (2-line) | Bulleted items under companies |
+
+### Where to Add Keywords
+
+Different keywords belong in different sections:
+
+| Keyword Type | Best Section | Why | Example |
+|--------------|--------------|-----|---------|
+| Domain/industry | Summary tagline | Positioning | "Enterprise AI" |
+| Core capabilities | Summary body | Capabilities overview | "data-driven product leadership" |
+| Leadership scope | Summary body | Director+ positioning | "led PM teams", "scaled organizations" |
+| Signature achievement | Career Highlights | Top-of-resume impact | "Drove $59M AI revenue" |
+| Specific evidence | Experience bullets | Detailed proof | "Increased NPS 47% through..." |
+
+### Decision Framework for Claude
+
+**Before proposing an edit, ask:**
+1. Is this keyword about WHO they are (positioning)? → Summary
+2. Is this a top-3 career achievement? → Career Highlights
+3. Is this detailed evidence of capability? → Experience bullets
+4. Could reordering existing items help? → Consider resequencing before editing text
 
 ## Workflow
 
@@ -67,10 +101,10 @@ This loads `users/other-name/` files instead of the default.
 Run the preprocessing script to extract keywords and analyze gaps:
 
 ```bash
-python3 "<YOUR_PATH>/skill/resume-tailor.py" preprocess \
+python3 "/Users/fallonjensen/Obsidian Vault/Career/skill/resume-tailor.py" preprocess \
   --jd "<path_to_jd>" \
-  --resume "<YOUR_PATH>/users/<your-name>/current-resume.txt" \
-  --corpus "<YOUR_PATH>/users/<your-name>/bullet-corpus.txt" \
+  --resume "/Users/fallonjensen/Obsidian Vault/Career/users/fallon-jensen/current-resume.txt" \
+  --corpus "/Users/fallonjensen/Obsidian Vault/Career/users/fallon-jensen/bullet-corpus.txt" \
   --output "<scratchpad>/gap_analysis.json"
 ```
 
@@ -83,18 +117,40 @@ This produces:
 
 Present the gap analysis to the user:
 1. Show summary stats (total keywords, explicit matches, missing)
-2. List missing PRIMARY keywords first
-3. List missing SECONDARY keywords
-4. Ask user which gaps to prioritize
+2. Show section breakdown (what's in summary vs highlights vs experience)
+3. List missing PRIMARY keywords first
+4. List missing SECONDARY keywords
+5. Ask user which gaps to prioritize
 
-### Step 3: Propose Edits (Claude's Role)
+### Step 3: Propose Edits by Section
 
-**First, load the active profile**:
+**First, load the active profile** (default: `Career/users/fallon-jensen/profile.md`):
 - Read tone & voice preferences
 - Note anti-patterns to avoid
 - Check verified metrics for reference
 
-For each missing keyword the user wants to address:
+#### Step 3a: Summary Section Edits
+
+For keywords that fit positioning (domain, capabilities, leadership):
+
+1. **Tagline edits**: Can this keyword strengthen the positioning? Keep to 60-100 chars.
+   - Example: "Product Strategy & AI" → "Enterprise Product Strategy & AI"
+2. **Body edits**: Does the keyword describe a core capability?
+   - Example: Add "data-driven" or "platform" to the positioning paragraph
+
+#### Step 3b: Career Highlights Edits
+
+For keywords that represent major achievements:
+
+1. **Reorder first**: Would moving an existing highlight up address the gap?
+2. **Edit second**: Can an existing highlight be modified to add the keyword?
+3. **New highlight last**: Only if corpus strongly supports adding a new highlight
+
+**Character limit**: 150-250 chars per highlight
+
+#### Step 3c: Experience Bullet Edits
+
+For keywords that need specific evidence:
 
 1. **Read the bullet corpus** to find supporting text
 2. **Identify the best bullet to modify** (most thematically related)
@@ -120,12 +176,29 @@ For each missing keyword the user wants to address:
 
 #### Output Format for Proposed Edits
 
-Create a JSON file with proposed edits:
+Create a JSON file with proposed edits. Include `section_type` for proper validation:
 
 ```json
 [
   {
-    "bullet_id": "company_role_2",
+    "section_type": "summary_tagline",
+    "id": "summary_tagline",
+    "original": "Product Strategy & AI | Leading product teams...",
+    "proposed": "Enterprise Product Strategy & AI | Leading product teams...",
+    "keyword_added": "enterprise",
+    "source_reference": "Found in corpus: 'enterprise AI adoption'"
+  },
+  {
+    "section_type": "highlight",
+    "id": "highlight_0",
+    "original": "AI/ML Leadership: Led team of 8 ML engineers...",
+    "proposed": "Enterprise AI Leadership: Led team of 8 ML engineers...",
+    "keyword_added": "enterprise",
+    "source_reference": "Found in corpus: 'enterprise AI platform'"
+  },
+  {
+    "section_type": "bullet",
+    "id": "logmein_staff_pm_2",
     "original": "Drove $59M in revenue by productizing 8 ML models in NLP, Computer Vision, and Recommenders.",
     "proposed": "Drove $59M in revenue by productizing 8 ML models in NLP, Computer Vision, and Recommenders, scaling enterprise AI adoption.",
     "keyword_added": "scaling",
@@ -134,19 +207,21 @@ Create a JSON file with proposed edits:
 ]
 ```
 
+**Valid section_type values:** `summary_tagline`, `summary_body`, `highlight`, `bullet`
+
 ### Step 4: Validate Edits
 
 Run validation on proposed edits:
 
 ```bash
-python3 "<YOUR_PATH>/skill/resume-tailor.py" validate \
+python3 "/Users/fallonjensen/Obsidian Vault/Career/skill/resume-tailor.py" validate \
   --edits "<scratchpad>/proposed_edits.json" \
-  --corpus "<YOUR_PATH>/users/<your-name>/bullet-corpus.txt" \
+  --corpus "/Users/fallonjensen/Obsidian Vault/Career/users/fallon-jensen/bullet-corpus.txt" \
   --output "<scratchpad>/validated_edits.json"
 ```
 
-This checks:
-- Character limits
+This checks (using appropriate limits for each section type):
+- Character limits (section-specific)
 - Metrics preserved
 - No hallucinated words
 - No new proper nouns
@@ -168,16 +243,19 @@ User can: **Accept** | **Reject** | **Request Alternative**
 After user approves edits:
 1. Apply accepted edits to resume
 2. Show final resume with highlighted changes
-3. Offer to save to a new file (e.g., `tailored-resume-companyname.txt`)
+3. Offer to save to a new file (e.g., `Resume-Fallon-Jensen-Impel.txt`)
 
 ## Character Limit Guidelines
 
-| Type | Range | Guidance |
-|------|-------|----------|
-| One-line | 80-116 chars | Preferred for clarity |
-| Awkward | 117-174 chars | Adjust up or down |
-| Two-line | 175-235 chars | OK for complex achievements |
-| Over | 236+ chars | Must trim |
+| Section | Range | Guidance |
+|---------|-------|----------|
+| **Summary tagline** | 60-100 chars | Short, punchy positioning |
+| **Summary body** | 300-500 chars | 2-4 sentences overview |
+| **Career highlights** | 150-250 chars | Each highlight item |
+| **Experience (1-line)** | 80-116 chars | Preferred for clarity |
+| **Experience (awkward)** | 117-174 chars | Adjust up or down |
+| **Experience (2-line)** | 175-235 chars | OK for complex achievements |
+| **Experience (over)** | 236+ chars | Must trim |
 
 ## Quick Command
 
@@ -193,7 +271,7 @@ User: /resume-tailor
 
 Claude: I'll help you tailor your resume. What job description should I use?
 
-User: Use the Acme Corp VP Product JD
+User: Use the Impel VP Product AI Platform JD
 
 Claude: Running gap analysis...
 [Runs preprocessing script]
@@ -227,8 +305,8 @@ When you complete work on a job application:
 ## Documentation
 
 For more details, see:
-- `README.md` - Overview and quick start
-- `SETUP.md` - Setup instructions for new users
-- `CONTRIBUTING.md` - How to improve the skill
-- `skill/README.md` - Technical documentation
-- `reference/README.md` - Guide to original instruction sets
+- `Career/README.md` - Overview and quick start
+- `Career/SETUP.md` - Setup instructions for new users
+- `Career/CONTRIBUTING.md` - How to improve the skill
+- `Career/skill/README.md` - Technical documentation
+- `Career/reference/README.md` - Guide to original instruction sets

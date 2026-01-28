@@ -23,10 +23,20 @@ from typing import List, Set, Dict, Optional, Tuple
 # CONFIGURATION
 # ============================================================================
 
-# Character limits for bullets
-CHAR_LIMIT_ONE_LINE = (80, 116)
-CHAR_LIMIT_TWO_LINE = (175, 235)
-CHAR_LIMIT_AWKWARD = (117, 174)  # Should be adjusted up or down
+# Character limits by section type
+CHAR_LIMITS = {
+    'summary_tagline': (60, 100),      # Tagline: short and punchy
+    'summary_body': (300, 500),        # Body paragraph: 2-4 sentences
+    'highlight': (150, 250),           # Career highlights: can be longer
+    'bullet_one_line': (80, 116),      # Experience bullets: one line
+    'bullet_two_line': (175, 235),     # Experience bullets: two lines
+    'bullet_awkward': (117, 174),      # Awkward zone: adjust up or down
+}
+
+# Legacy aliases for backwards compatibility
+CHAR_LIMIT_ONE_LINE = CHAR_LIMITS['bullet_one_line']
+CHAR_LIMIT_TWO_LINE = CHAR_LIMITS['bullet_two_line']
+CHAR_LIMIT_AWKWARD = CHAR_LIMITS['bullet_awkward']
 
 # Common PM/tech keywords to look for
 INDUSTRY_TERMS = {
@@ -124,6 +134,36 @@ class ValidationResult:
     warnings: List[str] = field(default_factory=list)
     passed: bool = True
 
+@dataclass
+class ResumeSummary:
+    """The summary section at the top of the resume."""
+    tagline: str           # "Product Strategy & Innovation | Leading..."
+    body: str              # The paragraph description
+    tagline_char_count: int = 0
+    body_char_count: int = 0
+
+    def __post_init__(self):
+        self.tagline_char_count = len(self.tagline)
+        self.body_char_count = len(self.body)
+
+@dataclass
+class CareerHighlight:
+    """A career highlight bullet (typically has a label: description format)."""
+    id: str
+    label: str             # "AI/ML & Product Innovation:" (the bold part)
+    text: str              # The achievement text after the label
+    full_text: str         # Complete text including label
+    char_count: int
+    metrics: List[str] = field(default_factory=list)
+
+@dataclass
+class ParsedResume:
+    """Complete parsed resume with all sections."""
+    summary: ResumeSummary
+    highlights: List[CareerHighlight]
+    experience_bullets: List[Bullet]
+    raw_text: str = ""
+
 # ============================================================================
 # KEYWORD EXTRACTION
 # ============================================================================
@@ -208,10 +248,112 @@ def categorize_keyword(term: str) -> str:
 # RESUME PARSING
 # ============================================================================
 
-def parse_resume(resume_text: str) -> List[Bullet]:
-    """Parse resume into structured bullets."""
-    bullets = []
+def split_into_sections(resume_text: str) -> Dict[str, str]:
+    """Split resume text into major sections."""
+    sections = {
+        'summary': '',
+        'highlights': '',
+        'experience': ''
+    }
+
     lines = resume_text.split('\n')
+    current_section = 'summary'
+    section_lines = {'summary': [], 'highlights': [], 'experience': []}
+
+    for line in lines:
+        line_stripped = line.strip()
+        line_upper = line_stripped.upper()
+
+        # Detect section headers
+        if 'CAREER HIGHLIGHTS' in line_upper:
+            current_section = 'highlights'
+            continue
+        elif line_upper in ['PROFESSIONAL IMPACT', 'EXPERIENCE', 'PROFESSIONAL EXPERIENCE', 'WORK EXPERIENCE']:
+            current_section = 'experience'
+            continue
+
+        section_lines[current_section].append(line)
+
+    for section, lines_list in section_lines.items():
+        sections[section] = '\n'.join(lines_list).strip()
+
+    return sections
+
+def parse_summary_section(summary_text: str) -> ResumeSummary:
+    """Parse the summary section into tagline and body."""
+    lines = [l.strip() for l in summary_text.split('\n') if l.strip()]
+
+    # Skip name and contact info (first few lines)
+    content_lines = []
+    for line in lines:
+        # Skip if looks like contact info
+        if '@' in line or 'linkedin' in line.lower() or re.match(r'^[\d\-\.\(\)\s]+$', line):
+            continue
+        # Skip if it's just a name (short, no special chars except spaces)
+        if len(line) < 30 and not any(c in line for c in ['|', '–', '-', '•', ':']):
+            continue
+        content_lines.append(line)
+
+    tagline = ''
+    body = ''
+
+    if content_lines:
+        # First content line is usually the tagline (contains | separator)
+        if '|' in content_lines[0] or len(content_lines[0]) < 120:
+            tagline = content_lines[0]
+            body = ' '.join(content_lines[1:]) if len(content_lines) > 1 else ''
+        else:
+            # No clear tagline, treat first sentence as tagline
+            tagline = content_lines[0][:100] if content_lines else ''
+            body = ' '.join(content_lines)
+
+    return ResumeSummary(tagline=tagline, body=body)
+
+def parse_highlights_section(highlights_text: str) -> List[CareerHighlight]:
+    """Parse career highlights section."""
+    highlights = []
+    lines = highlights_text.split('\n')
+    highlight_count = 0
+
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+
+        # Detect bullet points
+        if line.startswith('•') or line.startswith('-') or line.startswith('\t•'):
+            full_text = re.sub(r'^[•\-\t\s]+', '', line).strip()
+            if len(full_text) < 20:
+                continue
+
+            # Try to split on label pattern (Label: description or Label – description)
+            # Allow hyphens within labels (e.g., "Cross-Functional Leadership:")
+            label = ''
+            text = full_text
+            # Match up to first colon or en-dash followed by a space
+            label_match = re.match(r'^(.+?(?::|–)\s)', full_text)
+            if label_match:
+                label = label_match.group(1).strip()
+                text = full_text[len(label_match.group(1)):].strip()
+
+            metrics = re.findall(r'\$[\d.,]+[MBK]?|\d+%|\d+x|\d+\+', full_text)
+
+            highlights.append(CareerHighlight(
+                id=f"highlight_{highlight_count}",
+                label=label,
+                text=text,
+                full_text=full_text,
+                char_count=len(full_text),
+                metrics=metrics
+            ))
+            highlight_count += 1
+
+    return highlights
+
+def parse_experience_bullets(experience_text: str) -> List[Bullet]:
+    """Parse experience section into bullets (original logic)."""
+    bullets = []
+    lines = experience_text.split('\n')
     current_company = "unknown"
     bullet_count = 0
 
@@ -222,22 +364,18 @@ def parse_resume(resume_text: str) -> List[Bullet]:
 
         # Detect company headers (heuristic: contains date range)
         if re.search(r'(19|20)\d{2}\s*[-–]\s*(19|20)?\d{2}|Present', line):
-            # Extract company name (usually before the date)
             parts = re.split(r'\t|\s{2,}', line)
             if parts:
-                current_company = parts[0].strip()[:30]  # Truncate for ID
+                current_company = parts[0].strip()[:30]
             continue
 
         # Detect bullet points
-        if line.startswith('•') or line.startswith('-') or line.startswith('	•'):
+        if line.startswith('•') or line.startswith('-') or line.startswith('\t•'):
             bullet_text = re.sub(r'^[•\-\t\s]+', '', line).strip()
-            if len(bullet_text) < 20:  # Skip very short lines
+            if len(bullet_text) < 20:
                 continue
 
-            # Extract metrics
             metrics = re.findall(r'\$[\d.,]+[MBK]?|\d+%|\d+x|\d+\+', bullet_text)
-
-            # Create clean company name for ID
             company_clean = re.sub(r'[^a-zA-Z0-9]', '_', current_company.lower())[:20]
             bullet_id = f"{company_clean}_{bullet_count}"
             bullet_count += 1
@@ -251,6 +389,37 @@ def parse_resume(resume_text: str) -> List[Bullet]:
             ))
 
     return bullets
+
+def parse_resume(resume_text: str) -> ParsedResume:
+    """Parse resume into structured sections."""
+    sections = split_into_sections(resume_text)
+
+    summary = parse_summary_section(sections.get('summary', ''))
+    highlights = parse_highlights_section(sections.get('highlights', ''))
+    experience_bullets = parse_experience_bullets(sections.get('experience', ''))
+
+    return ParsedResume(
+        summary=summary,
+        highlights=highlights,
+        experience_bullets=experience_bullets,
+        raw_text=resume_text
+    )
+
+def parse_resume_bullets_only(resume_text: str) -> List[Bullet]:
+    """Legacy function: Parse resume into just bullets (for backwards compatibility)."""
+    parsed = parse_resume(resume_text)
+    # Combine highlights and experience bullets
+    all_bullets = []
+    for h in parsed.highlights:
+        all_bullets.append(Bullet(
+            id=h.id,
+            text=h.full_text,
+            char_count=h.char_count,
+            company="highlights",
+            metrics=h.metrics
+        ))
+    all_bullets.extend(parsed.experience_bullets)
+    return all_bullets
 
 # ============================================================================
 # GAP ANALYSIS
@@ -310,20 +479,50 @@ def extract_metrics(text: str) -> Set[str]:
     """Extract all metrics from text."""
     return set(re.findall(r'\$[\d.,]+[MBK]?|\d+%|\d+x|\d+\+', text))
 
-def validate_edit(original: str, proposed: str, corpus_words: Set[str]) -> Tuple[List[str], bool]:
-    """Validate a proposed edit against anti-hallucination rules."""
+def validate_edit(original: str, proposed: str, corpus_words: Set[str],
+                  section_type: str = 'bullet') -> Tuple[List[str], bool]:
+    """Validate a proposed edit against anti-hallucination rules.
+
+    Args:
+        original: Original text
+        proposed: Proposed replacement text
+        corpus_words: Set of all words in the bullet corpus
+        section_type: One of 'summary_tagline', 'summary_body', 'highlight', 'bullet'
+    """
     warnings = []
     passed = True
     char_count = len(proposed)
 
-    # Check 1: Character limits
-    if CHAR_LIMIT_AWKWARD[0] <= char_count <= CHAR_LIMIT_AWKWARD[1]:
-        warnings.append(f"CHAR_AWKWARD: {char_count} chars is in awkward range (117-174). Adjust to one-line or two-line.")
-    elif char_count > CHAR_LIMIT_TWO_LINE[1]:
-        warnings.append(f"CHAR_EXCEEDED: {char_count} chars exceeds max ({CHAR_LIMIT_TWO_LINE[1]})")
-        passed = False
-    elif char_count < CHAR_LIMIT_ONE_LINE[0]:
-        warnings.append(f"CHAR_SHORT: {char_count} chars below minimum ({CHAR_LIMIT_ONE_LINE[0]})")
+    # Check 1: Character limits based on section type
+    if section_type == 'summary_tagline':
+        min_chars, max_chars = CHAR_LIMITS['summary_tagline']
+        if char_count > max_chars:
+            warnings.append(f"CHAR_EXCEEDED: Tagline {char_count} chars exceeds max ({max_chars})")
+            passed = False
+        elif char_count < min_chars:
+            warnings.append(f"CHAR_SHORT: Tagline {char_count} chars below minimum ({min_chars})")
+    elif section_type == 'summary_body':
+        min_chars, max_chars = CHAR_LIMITS['summary_body']
+        if char_count > max_chars:
+            warnings.append(f"CHAR_EXCEEDED: Summary body {char_count} chars exceeds max ({max_chars})")
+            passed = False
+        elif char_count < min_chars:
+            warnings.append(f"CHAR_SHORT: Summary body {char_count} chars below minimum ({min_chars})")
+    elif section_type == 'highlight':
+        min_chars, max_chars = CHAR_LIMITS['highlight']
+        if char_count > max_chars:
+            warnings.append(f"CHAR_EXCEEDED: Highlight {char_count} chars exceeds max ({max_chars})")
+            passed = False
+        elif char_count < min_chars:
+            warnings.append(f"CHAR_SHORT: Highlight {char_count} chars below minimum ({min_chars})")
+    else:  # bullet (default)
+        if CHAR_LIMIT_AWKWARD[0] <= char_count <= CHAR_LIMIT_AWKWARD[1]:
+            warnings.append(f"CHAR_AWKWARD: {char_count} chars is in awkward range (117-174). Adjust to one-line or two-line.")
+        elif char_count > CHAR_LIMIT_TWO_LINE[1]:
+            warnings.append(f"CHAR_EXCEEDED: {char_count} chars exceeds max ({CHAR_LIMIT_TWO_LINE[1]})")
+            passed = False
+        elif char_count < CHAR_LIMIT_ONE_LINE[0]:
+            warnings.append(f"CHAR_SHORT: {char_count} chars below minimum ({CHAR_LIMIT_ONE_LINE[0]})")
 
     # Check 2: All significant words exist in corpus
     original_words = set(re.findall(r'\b[\w-]+\b', original.lower()))
@@ -372,14 +571,18 @@ def run_validation(edits_path: str, corpus_path: str) -> List[ValidationResult]:
     results = []
 
     for edit in edits:
+        # Get section type for appropriate validation limits
+        section_type = edit.get('section_type', 'bullet')
+
         warnings, passed = validate_edit(
             edit['original'],
             edit['proposed'],
-            corpus_words
+            corpus_words,
+            section_type=section_type
         )
 
         results.append(ValidationResult(
-            bullet_id=edit.get('bullet_id', 'unknown'),
+            bullet_id=edit.get('id', edit.get('bullet_id', 'unknown')),
             original=edit['original'],
             proposed=edit['proposed'],
             keyword_added=edit.get('keyword_added', ''),
@@ -424,7 +627,7 @@ def main():
 
         # Process
         keywords = extract_keywords(jd_text)
-        bullets = parse_resume(resume_text)
+        parsed_resume = parse_resume(resume_text)
         gaps = compute_gap_analysis(keywords, resume_text, corpus_text)
 
         # Sort gaps: missing primary first, then missing secondary, then explicit
@@ -435,12 +638,41 @@ def main():
 
         gaps.sort(key=gap_sort_key)
 
-        # Output
+        # Compute per-section keyword coverage
+        def keywords_in_text(kws: List[Keyword], text: str) -> Dict[str, str]:
+            """Check which keywords appear in text, return dict of keyword -> status."""
+            text_lower = text.lower()
+            result = {}
+            for kw in kws:
+                result[kw.term] = 'found' if kw.term.lower() in text_lower else 'missing'
+            return result
+
+        summary_text = parsed_resume.summary.tagline + ' ' + parsed_resume.summary.body
+        highlights_text = ' '.join(h.full_text for h in parsed_resume.highlights)
+        experience_text = ' '.join(b.text for b in parsed_resume.experience_bullets)
+
+        # Output with section-aware structure
         output = {
             'jd_file': args.jd,
             'resume_file': args.resume,
             'keywords': [asdict(k) for k in keywords],
-            'bullets': [asdict(b) for b in bullets],
+            'sections': {
+                'summary': {
+                    'tagline': parsed_resume.summary.tagline,
+                    'tagline_char_count': parsed_resume.summary.tagline_char_count,
+                    'body': parsed_resume.summary.body,
+                    'body_char_count': parsed_resume.summary.body_char_count,
+                    'keywords_coverage': keywords_in_text(keywords, summary_text),
+                },
+                'highlights': {
+                    'items': [asdict(h) for h in parsed_resume.highlights],
+                    'keywords_coverage': keywords_in_text(keywords, highlights_text),
+                },
+                'experience': {
+                    'bullets': [asdict(b) for b in parsed_resume.experience_bullets],
+                    'keywords_coverage': keywords_in_text(keywords, experience_text),
+                },
+            },
             'gaps': [asdict(g) for g in gaps],
             'summary': {
                 'total_keywords': len(keywords),
@@ -448,7 +680,8 @@ def main():
                 'missing': len([g for g in gaps if g.status == 'missing']),
                 'missing_primary': len([g for g in gaps if g.status == 'missing' and g.importance == 'primary']),
                 'missing_secondary': len([g for g in gaps if g.status == 'missing' and g.importance == 'secondary']),
-                'total_bullets': len(bullets),
+                'total_highlights': len(parsed_resume.highlights),
+                'total_experience_bullets': len(parsed_resume.experience_bullets),
             }
         }
 
@@ -462,7 +695,11 @@ def main():
         print(f"Keywords found: {output['summary']['total_keywords']}")
         print(f"  - Explicit in resume: {output['summary']['explicit_matches']}")
         print(f"  - Missing: {output['summary']['missing']} ({output['summary']['missing_primary']} primary)")
-        print(f"Bullets parsed: {output['summary']['total_bullets']}")
+        print(f"\nRESUME SECTIONS:")
+        print(f"  Summary tagline: {parsed_resume.summary.tagline_char_count} chars")
+        print(f"  Summary body: {parsed_resume.summary.body_char_count} chars")
+        print(f"  Career highlights: {len(parsed_resume.highlights)} items")
+        print(f"  Experience bullets: {len(parsed_resume.experience_bullets)} items")
         print(f"\nOutput written to: {args.output}")
         print(f"{'='*60}\n")
 
